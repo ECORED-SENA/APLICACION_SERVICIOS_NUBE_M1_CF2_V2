@@ -1,19 +1,49 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.bloque-texto-b:before
+  content: ""
+  display: block
+  background-color: #ffedb7
+  position: absolute
+  top: 40%
+  bottom: 0
+  left: 35%
+  right: 0
 
+.bloque-texto-b__texto:before
+  margin-right: 15px
+  transform: rotate(180deg)
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.bloque-texto-b__texto:after
+  margin-left: 15px
+  vertical-align: top
+  margin-top: 5px
+  
+.bloque-texto-b__texto:after, .bloque-texto-b__texto:before
+  content: ""
+  display: inline-block
+  width: 36px
+  height: 31px
+  background-image: url(../assets/componentes/icon-bloque-texto-c.svg)
+  background-repeat: no-repeat
 
-  100%
-    transform: translateY(0px)
+.lista-ul
+  li
+    display: flex
+    i.fas
+      margin-right: 0.5rem
+      font-size: 1.3rem
+      color: $color-acento-contenido
+
+.titulo-segundo:after
+  border-left-color: $color-acento-contenido
+
+.tabla-a
+  table
+    thead
+      th
+        color: $color-sistema-texto
+  caption
+    color: $color-sistema-b
+    font-weight: 400
+
+.txt-color
+  color: $color_sistema-i

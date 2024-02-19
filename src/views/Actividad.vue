@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] 
+          h2 Técnicas de recolección de información
+        p.mb-4 Conocer las diferentes técnicas de recolección de información, así como sus instrumentos y buenas prácticas para ser empleadas durante el proceso de elicitación de requisitos de software (integralidad).
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
