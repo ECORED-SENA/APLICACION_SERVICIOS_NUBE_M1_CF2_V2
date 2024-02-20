@@ -33,10 +33,48 @@
   height: 170px
 .banner-interno__fondo
   background-image: url(../assets/curso/fondo_tema.png) !important
+.class-tempo
+  position: relative
+.class-tempo:before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 100%
+  background-color: red
+  z-index: 0
+  border-radius: 10px
 
-
-
-
+.seccion-cita-contenedor
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    border-radius: 8px
+    width: 100%
+    height: 80%
+    bottom: 0
+    background-color: $color-sistema-i
+    left: 0
+  .seccion-cita-texto
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    z-index: 1
+    figure
+      img
+        margin: auto
+    &:before
+      content: ""
+      position: absolute
+      border-radius: 8px
+      width: 100%
+      height: 85%
+      bottom: 0
+      background-color: $color-sistema-h
+      left: 0
+      z-index: -1
 
 
 

@@ -9,28 +9,14 @@
 
     p.mb-4(data-aos="fade") El propósito de la elicitación de requerimientos es ganar conocimientos relevantes del problema, que se utilizarán para producir una especificación formal del #[em software] necesario para resolverlo.
 
-    .bloque-texto-b
-      .bloque-texto-b__texto
-        i.fas.fa-quote-left 
-        .h4.mb-0 Un problema puede ser definido como la diferencia entre las cosas como se perciben y las cosas como se desean
-        i.fas.fa-quote-left 
-        br
-        p - (Gause y Weinberg 1989)
-
-
-
-
-    
-    .row.align-items-center
-      .col-lg-7.mb-4(data-aos="fade-right")
-        .bloque-texto-b.color-primario.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left 
-            .h3.mb-0 Un problema puede ser definido como la diferencia entre las cosas como se perciben y las cosas como se desean
-            i.fas.fa-quote-right
-          br
-          p.mb-0 - (Gause y Weinberg 1989)
-      .col-lg-5.mb-4(data-aos="fade-left")
+    .row.justify-content-center.seccion-cita-contenedor.mb-5
+      .col-md-10(data-aos="fade-down")
+        .seccion-cita-texto.mb-4
+          figure.mb-3
+            img(src='@/assets/curso/temas/img-1.svg', style="max-width: 80px;")
+          .h4.mb-2 Un problema puede ser definido como la diferencia entre las cosas como se perciben y las cosas como se desean
+          p - (Gause y Weinberg 1989)
+      .col-md-10(data-aos="fade-up")(style="z-index:1")
         p Aquí se ve la importancia que tiene una buena comunicación entre desarrolladores y clientes; de esta comunicación con el cliente depende que sus necesidades queden claras. Además, al final de la fase de análisis de requerimientos, el analista podría llegar a tener un conocimiento extenso en el dominio del problema.
     
     p.mb-4(data-aos="fade") La elicitación de requisitos es la actividad que se considera como el primer paso en un proceso de ingeniería de requisitos; su significado hace referencia a la puesta en marcha de técnicas que sirven para recopilar conocimiento o información y los objetivos de esta fase de elicitación, son:
