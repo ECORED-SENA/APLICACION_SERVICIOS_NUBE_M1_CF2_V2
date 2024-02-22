@@ -1,3 +1,6 @@
+.accesibilidad
+  z-index: 100
+
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -33,136 +36,203 @@
   height: 170px
 .banner-interno__fondo
   background-image: url(../assets/curso/fondo_tema.png) !important
-.class-tempo
-  position: relative
-.class-tempo:before
-  content: ""
-  position: absolute
-  width: 100%
-  height: 100%
-  background-color: red
-  z-index: 0
-  border-radius: 10px
 
-.seccion-cita-contenedor
+.contenedor-bloque-leyenda
   position: relative
+  z-index: 1
   &:before
     content: ""
     position: absolute
-    border-radius: 8px
     width: 100%
-    height: 80%
-    bottom: 0
+    height: 85%
     background-color: $color-sistema-i
+    bottom: 0
     left: 0
-  .seccion-cita-texto
+    z-index: -1
+  .contenedor-leyenda
     position: relative
-    display: flex
-    flex-direction: column
-    justify-content: center
-    text-align: center
     z-index: 1
-    figure
-      img
-        margin: auto
     &:before
       content: ""
-      position: absolute
       border-radius: 8px
+      position: absolute
       width: 100%
-      height: 85%
-      bottom: 0
+      height: 90%
       background-color: $color-sistema-h
+      bottom: 0
       left: 0
       z-index: -1
+  .texto-leyenda
+    max-width: 620px
+    margin: 0 auto
+    position: relative
+    text-align: center
+    i.fas
+      position: absolute
+      font-size: 1.5em
+      color: $color-acento-contenido
+    .i-izquierda
+      left: 0
+      top: 0
+      transform: translate(-100%,-70%)
+    .i-derecha
+      right: 0
+      bottom: 0
+      transform: translate(100%,70%)
 
-
-
-
-.banner-interno__titulo__icono i
-    color: $color-sistema-texto !important
-.banner-principal__img img 
-  width: 80%
-  margin: 0 auto
-
-.fa-ul
-  margin-left: 0 !important
-  li
-    display: flex !important
-    &:before
-      position: relative
-      margin-right: 7px
-      font-size: 1.4rem
-
-.txt-color
-  color: #4DD0E1
-.txt-color2 
-  color: #1b68bd
-
-.bg-color1 
-  background-color: #ffedb7
-.bg-color2
-  background-color: #4DD0E1
-  border-bottom-left-radius: 10px
-  border-top-left-radius: 10px
-.bg-color3
-  background-color: #FFCA28
-  border-top-right-radius: 10px
-  border-bottom-right-radius: 10px
-.bg-color4
-  background-color: #4DD0E1
-.bg-1
-  background-color: #e8e8e8
-.bg-2
-  background-color: #FDF4DC
-.bg-3
-  background-color: #fad443
-
-.hr1
-  border: 1px solid #AFAFAF
-  margin-bottom: 1.5rem
-  margin-left: 4rem
-.hr2
-  border: 1px solid #AFAFAF
-  margin-top: 1.5rem
-  margin-bottom: 1.5rem
-  margin-left: 4rem
-.hr3
-  border: 1px solid #AFAFAF
-  margin-top: 1.5rem
-  margin-left: 4rem
-
-.styleButton
-  background-color: #FFA726
-  padding: 10px 20px
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.borde-10
   border-radius: 10px
-  transition: all 800ms ease-out
-.styleButton:hover
-  background-color: #AFAFAF
-  color: #FFFFFF
+.borde-13
+  border-radius: 13px
+.borde-12
+  border-radius: 12px
 
-.table1
-  background-color: #45bdcd
-.table2
-  background-color: #fff6db
-.table3
-  background-color: #F2F2F2
+.lista-ul--color li > i:first-of-type
+  color: $color-primario
 
-.bloque-texto-a.color-acento-botones 
-  background-color: #ffedb7
-.bloque-texto-a.color-acento-botones:before 
-  background-color: #fff6db
-.banner-interno__titulo__icono
-  background-color: #FFFFFF !important
-.bloque-texto-b.color-primario:before 
-  opacity: 0.4
+.lista-ul
+  li
+    display: flex
+  i.fas.fa-circle
+    font-size: 0.7em
+.tabla-a.color-acento-contenido thead
+  border-color: $color-sistema-i
+table caption
+  background-color: $color-sistema-h
+  font-weight: 400
+  color: #636363
+  
+.cont_titulo_decorativo, .cont_titulo_decorativo *
+  position: relative
+.cont_titulo_decorativo
+  width: fit-content
+  margin-bottom: 1.7rem
+.cont_titulo_decorativo:before
+  content: ''
+  position: absolute
+  height: 85%
+  width: 100%
+  left: 0
+  bottom: 0
+  background-color: #8DEECC
+  border-radius: 5px
 
-.lista-ol--cuadro__vineta span
-  color: $color-sistema-texto
-.lista-ul--color.color-acento-botones li > i:first-of-type
-  color: #FFCA28
-.size-20 p
-  font-size: 20px
+.tarjeta-p-1
+  height: 100%
+  background-color: $color-secundario
+  border-radius: 10px
+  &__titulo
+    display: inline-block
+    background-color: $color-acento-contenido
+  &__parrafo
+    color: $white
+  &__img2
+    margin-top: 1rem
 
-.tabs-c__tab--active span
-  font-weight: bold
+.fondo-gradiente-1
+  position: relative
+  z-index: 1
+  &:before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 125%
+    left: -15%
+    height: 70%
+    top: 12%
+    bottom: 15%
+    background: url(../assets/curso/temas/img-10.png)
+    background-size: cover
+    background-position: top
+
+.numero-circular
+  display: inline-flex
+  width: 30px
+  height: 30px
+  background-color: $color-acento-contenido
+  border-radius: 50%
+  justify-content: center
+  align-items: center
+.tarjeta-fig
+  position: relative
+  z-index: 1
+  background-color: $color-primario
+  border-radius: 10px
+  p
+    color: $white
+
+.contenedor-figura-1
+  background-color: #FFEEA6
+  border-radius: 10px
+  position: relative
+  .figura-dec-1
+    max-width: 97px
+    position: absolute
+    top: 5%
+    right: 0
+    z-index: 0
+    @media screen and (max-width: 768px)
+      top: 10%
+
+  .figura-dec-2
+    max-width: 264px
+    position: absolute
+    bottom: 0
+    z-index: 0
+    left: 10%
+
+.cont_c
+  position: relative
+  z-index: 1
+
+  .img-dec-1
+    position: absolute
+    width: auto
+    right: 0
+    top: 0
+    z-index: -1
+
+.img-dec-2-c-1
+  position: absolute
+  width: auto
+  bottom: 0
+  right: 0
+
+.fondo-color-sistema-h
+  background-color: $color-sistema-h !important
+.fondo-color-primario
+  background-color: $color-primario !important
+.fondo-color-sistema-l
+  background-color: $color-sistema-l !important
+
+.cont_d_3
+  position: relative
+  z-index: 1
+  &:before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 100%
+    height: 75%
+    left: 0
+    bottom: 0
+    background-color: $color-acento-botones
+    border-radius: 10px
+    @media screen and (min-width: 992px)
+      height: 100%
+
+
+.cont-fig-2
+  bottom: 18%
+  @media screen and (min-width: 768px)
+    bottom: 12%
+  @media screen and (min-width: 992px)
+    bottom: 20%
+
+.custom-acordiona
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones

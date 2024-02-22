@@ -9,246 +9,443 @@
 
     p.mb-4(data-aos="fade") El propósito de la elicitación de requerimientos es ganar conocimientos relevantes del problema, que se utilizarán para producir una especificación formal del #[em software] necesario para resolverlo.
 
-    .row.justify-content-center.seccion-cita-contenedor.mb-5
-      .col-md-10(data-aos="fade-down")
-        .seccion-cita-texto.mb-4
-          figure.mb-3
-            img(src='@/assets/curso/temas/img-1.svg', style="max-width: 80px;")
-          .h4.mb-2 Un problema puede ser definido como la diferencia entre las cosas como se perciben y las cosas como se desean
-          p - (Gause y Weinberg 1989)
-      .col-md-10(data-aos="fade-up")(style="z-index:1")
-        p Aquí se ve la importancia que tiene una buena comunicación entre desarrolladores y clientes; de esta comunicación con el cliente depende que sus necesidades queden claras. Además, al final de la fase de análisis de requerimientos, el analista podría llegar a tener un conocimiento extenso en el dominio del problema.
-    
+    .contenedor-bloque-leyenda.mb-4
+      .row.justify-content-center.mx-1
+        .col-md-10.mb-4(data-aos="fade-down")
+          .text-center.contenedor-leyenda.px-5.pb-4
+            figure.mb-4
+              img(src='@/assets/curso/temas/img-1.svg', style="max-width: 80px;margin: auto")
+            .texto-leyenda
+              i.fas.fa-quote-left.i-izquierda
+              h4.mb-0 Un problema puede ser definido como la diferencia entre las cosas como se perciben y las cosas como se desean
+              i.fas.fa-quote-right.i-derecha
+            p.mt-2.mb-0 - (Gause y Weinberg 1989)
+        .col-md-10(data-aos="fade-up")
+          p Aquí se ve la importancia que tiene una buena comunicación entre desarrolladores y clientes; de esta comunicación con el cliente depende que sus necesidades queden claras. Además, al final de la fase de análisis de requerimientos, el analista podría llegar a tener un conocimiento extenso en el dominio del problema.
     p.mb-4(data-aos="fade") La elicitación de requisitos es la actividad que se considera como el primer paso en un proceso de ingeniería de requisitos; su significado hace referencia a la puesta en marcha de técnicas que sirven para recopilar conocimiento o información y los objetivos de esta fase de elicitación, son:
-    
-    ul.lista-ul--color.fa-ul(data-aos="fade")
-      li 
-        i.fas.fa-angle-right
-        | Conocer el dominio del problema para poder comunicarse con clientes y usuarios y entender sus necesidades.
-      li 
-        i.fas.fa-angle-right
-        | Conocer el sistema actual (manual o informatizado) y sus aspectos positivos y negativos.
-      li 
-        i.fas.fa-angle-right
-        | Identificar las necesidades, tanto explícitas como implícitas, de clientes y usuarios y sus expectativas sobre el sistema a desarrollar.
-
+    .row.align-items-stretch
+      .col-md-7.mb-4.mb-md-0
+        .fondo-color-sistema-j.borde-10.h-100.p-4.d-flex.align-items-center
+          ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+            li 
+              i.fas.fa-circle
+              | Conocer el dominio del problema para poder comunicarse con clientes y usuarios y entender sus necesidades.
+            li 
+              i.fas.fa-circle
+              | Conocer el sistema actual (manual o informatizado) y sus aspectos positivos y negativos.
+            li.mb-0
+              i.fas.fa-circle
+              | Identificar las necesidades, tanto explícitas como implícitas, de clientes y usuarios y sus expectativas sobre el sistema a desarrollar.
+      .col-md-5(data-aos="fade-left")
+        .d-flex.align-items-center.h-100
+          figure
+            img(src='@/assets/curso/temas/img-2.png')
 
     Separador
 
     #t_1_1(data-aos="fade")
     .titulo-segundo.color-acento-contenido
       h2 1.1. Planeación
-
+    
     p.mb-4(data-aos="fade") La planeación busca definir las tareas a realizar para elegir y planificar las técnicas a emplear durante la actividad de elicitación de la fase de ingeniería de requisitos del desarrollo de #[em software]. En la siguiente tabla se presenta una relación de estas tareas y sus correspondientes procesos.
+
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 1.] Tareas para elicitación de requisitos 
+        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
+          table
+            caption Nota: tomado de Durán y Bernárdez (2001)
+            thead
+              tr
+                th.table1 Tareas
+                th.table1 Proceso
+            tbody
+              tr
+                td #[b A.] Identificar las fuentes.
+                td Lista de fuentes de requerimientos.
+              tr
+                td #[b B.] Identificar interesados del producto.
+                td Categorías de los interesados (stakeholder).
+              tr
+                td #[b C.] Matriz #[em stakeholders] (Describir necesidades y criterios de éxito).
+                td Perfil de stakeholder.
+              tr
+                td #[b D.] Revisar técnicas.
+                td Identificar combinaciones de técnicas, entrevistas, grupos focales, encuestas, prototipos.
+              tr
+                td #[b E.] Captura de interesados.
+                td Plan de captura de interesados.
+
+    p.mb-4(data-aos="fade") A continuación, se describen los procesos relacionados con las tareas para elicitación de requisitos:   
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") A. Identificar las fuentes de requerimientos
     
-    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Tabla 1.] Tareas para elicitación de requisitos 
-    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
-      table
-        caption Nota: tomado de Durán y Bernárdez (2001)
-        thead
-          tr
-            th.table1 Tareas
-            th.table1 Proceso
-        tbody
-          tr
-            td #[b A.] Identificar las fuentes.
-            td Lista de fuentes de requerimientos.
-          tr
-            td #[b B.] Identificar interesados del producto.
-            td Categorías de los interesados (stakeholder).
-          tr
-            td #[b C.] Matriz #[em stakeholders] (Describir necesidades y criterios de éxito).
-            td Perfil de stakeholder.
-          tr
-            td #[b D.] Revisar técnicas.
-            td Identificar combinaciones de técnicas, entrevistas, grupos focales, encuestas, prototipos.
-          tr
-            td #[b E.] Captura de interesados.
-            td Plan de captura de interesados.
-   
-    
-    p.mb-4(data-aos="fade") A continuación, se describen los procesos relacionados con las tareas para elicitación de requisitos:
-    
-    .row.align-items-start.mb-4
-      .col-lg-6(data-aos="fade-right")
-        h3 #[span.txt-color A.] Identificar las fuentes de requerimientos
-        p Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de #[em software], así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
-      .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/img2.png', style="max-width: 80%; margin: auto;")
-    
-    p.mb-4(data-aos="fade") En el proceso de esta actividad se identifican:
-    
-    ul.lista-ul--color.fa-ul(data-aos="fade")
-      li 
-        i.fas.fa-angle-right
-        | Interesados relevantes.
-      li 
-        i.fas.fa-angle-right
-        | Documentación que se puede usar como fuente de información de los requerimientos.
-      li 
-        i.fas.fa-angle-right
-        | Fuentes de información externas.
-    
+    .row.mb-4
+      .col-lg-2.mb-4.mb-lg-0
+        .fondo-color-sistema-j.borde-13.py-3
+          figure
+            img(src='@/assets/curso/temas/img-4.svg', style="max-width: 77px;margin: auto;")
+      .col-lg-10
+        p.mb-4(data-aos="fade") Existe un conjunto de fuentes de requisitos en cada proyecto de desarrollo de #[em software], así, usuarios y expertos abastecen de información detallada acerca del problema y necesidades del usuario. Los procesos y sistemas existentes representan, también, fuentes de requisitos; además, la documentación existente como manuales, formularios y reportes, incluso especificaciones de requisitos anteriores, puede proveer información útil acerca de la organización y su entorno.
+
+        p.mb-4(data-aos="fade") En el proceso de esta actividad se identifican:
+
+        .fondo-color-sistema-j.p-4.pe-lg-0.borde-10.d-inline-flex
+          ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+            li 
+              i.fas.fa-circle
+              | Interesados relevantes.
+            li 
+              i.fas.fa-circle
+              | Documentación que se puede usar como fuente de información de los requerimientos.
+            li.mb-0
+              i.fas.fa-circle
+              | Fuentes de información externas.
+          figure.w-auto.ms-4.d-none.d-md-block
+            img(src='@/assets/curso/temas/img-5.svg')
+
     p.mb-4(data-aos="fade") Las fuentes de requerimientos incluyen los propietarios del problema, los #[em stakeholders], documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (people), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los #[em stakeholders].
-    
+
     p.mb-4(data-aos="fade") Estas fuentes de requerimientos, se pueden clasificar en:
-    
-    .hr1
-    .row.align-items-center(data-aos="fade-down")
-      .col-2.px-1.px-md-2.px-lg-3
-        figure
-          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img1.svg', style="margin: auto;")
-      .col-10
-        h4 Fuentes primarias
-        p Aportan material de primera mano (es protagonista o testigo de los hechos), estas fuentes contienen información original, que ha sido publicada por primera vez y que no ha sido filtrada, interpretada o evaluada por nadie más.
-    .hr2
-    .row.align-items-center(data-aos="fade-down")
-      .col-2.px-1.px-md-2.px-lg-3
-        figure
-          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img2.svg', style="margin: auto;")
-      .col-10
-        h4 Fuentes secundarias
-        p Toman y reproducen la información que le aportó una fuente primaria. Son las que contienen información primaria, sintetizada y reorganizada y están especialmente diseñadas para facilitar y maximizar el acceso a las fuentes primarias o a sus contenidos. Parten de datos preelaborados, como pueden ser datos obtenidos de anuarios estadísticos, internet, medios de comunicación, bases de datos procesadas con otros fines, artículos y documentos relacionados con un tema, libros, tesis, informes oficiales, etc.
-    .hr2
-    .row.align-items-center(data-aos="fade-down")
-      .col-2.px-1.px-md-2.px-lg-3
-        figure
-          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img3.svg', style="margin: auto;")
-      .col-10
-        h4 Fuentes terciarias
-        p Son guías físicas o virtuales que contienen información sobre las fuentes secundarias. Forman parte de la colección de referencia de una biblioteca; facilitan el control y acceso a toda la gama de repertorios de referencia, como las guías de obras de referencia, o a un solo tipo, como las bibliografías.
-    
-    .hr3.mb-4
-    
-    p.mb-4(data-aos="fade")  Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
-    
-    .titulo-sexto.color-acento-contenido.mb-3
-      p.mb-0 #[b Figura 1.] Fuentes de información
-    figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img3.png', style="max-width: 100%; margin: auto;" alt="Imagen que representa las cuatro fuentes de información o documentación.")
-    
-    .row.align-items-start.mb-4.pt-5
-      .col-lg-6(data-aos="fade-right")  
-        h3 #[span.txt-color B.] Identificar interesados del producto
-        p.mb-4 Uno de los primeros pasos en el proceso es el análisis e identificación de todas las personas relevantes que tienen un grado de interés en el proyecto. #[b Los interesados (#[em stakeholders]), son los individuos y organizaciones que están relacionados activamente en un proyecto de #[em software]]; tienen influencia directa o indirecta sobre los requisitos, o sus intereses se ven afectados por el proyecto (Baar, 2006, Ventura, 2002).
-        p En resumen, son grupos o individuos que están interesados en el producto de #[em software] que se está desarrollando y necesitarán estar informados acerca del progreso, conflictos, cambios y prioridades del proceso de desarrollo del producto.
-      .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")  
-        figure
-          img(src='@/assets/curso/temas/img4.png', style="max-width: 80%; margin: auto;")
-    
+
+    .fondo-gradiente-1
+      .row.justify-content-center
+        .col-md-6.col-lg-4.mb-4
+          .tarjeta-p-1.p-3
+            .d-flex.justify-content-between
+              div
+                figure
+                  img(src='@/assets/curso/temas/img-7.png')
+              div.tarjeta-p-1__img2
+                figure
+                  img(src='@/assets/curso/temas/img-6.svg')
+            .h3.tarjeta-p-1__titulo.p-1 Fuentes primarias
+            p.tarjeta-p-1__parrafo Aportan material de primera mano (es protagonista o testigo de los hechos), estas fuentes contienen información original, que ha sido publicada por primera vez y que no ha sido filtrada, interpretada o evaluada por nadie más.
+        .col-md-6.col-lg-4.mb-4
+          .tarjeta-p-1.p-3
+            .d-flex.justify-content-between
+              div
+                figure
+                  img(src='@/assets/curso/temas/img-8.png')
+              div.tarjeta-p-1__img2
+                figure
+                  img(src='@/assets/curso/temas/img-6.svg')
+            .h3.tarjeta-p-1__titulo.p-1 Fuentes secundarias
+            p.tarjeta-p-1__parrafo Toman y reproducen la información que le aportó una fuente primaria. Son las que contienen información primaria, sintetizada y reorganizada y están especialmente diseñadas para facilitar y maximizar el acceso a las fuentes primarias o a sus contenidos. Parten de datos preelaborados, como pueden ser datos obtenidos de anuarios estadísticos, internet, medios de comunicación, bases de datos procesadas con otros fines, artículos y documentos relacionados con un tema, libros, tesis, informes oficiales, etc.
+        .col-md-6.col-lg-4.mb-4
+          .tarjeta-p-1.p-3
+            .d-flex.justify-content-between
+              div
+                figure
+                  img(src='@/assets/curso/temas/img-9.png')
+              div.tarjeta-p-1__img2
+                figure
+                  img(src='@/assets/curso/temas/img-6.svg')
+            .h3.tarjeta-p-1__titulo.p-1 Fuentes terciarias
+            p.tarjeta-p-1__parrafo Son guías físicas o virtuales que contienen información sobre las fuentes secundarias. Forman parte de la colección de referencia de una biblioteca; facilitan el control y acceso a toda la gama de repertorios de referencia, como las guías de obras de referencia, o a un solo tipo, como las bibliografías.
+
+      p.mb-4(data-aos="fade")  Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
+
+      .titulo-sexto.color-acento-contenido.mb-3
+        p.mb-0 #[b Figura 1.] Fuentes de información
+
+      .contenedor-figura-1.p-4.pb-0
+        figure.figura-dec-1
+          img(src='@/assets/curso/temas/img-12.svg')
+        figure.figura-dec-2
+          img(src='@/assets/curso/temas/img-13.svg')
+
+        p.text-center.mb-4.mt-2
+          b Las fuentes de información o documentación pueden hallarse en diversos soportes.
+        .row.justify-content-center
+          .col-lg-3.order-1.mb-4
+            .d-flex.tarjeta-fig.p-3.mb-4
+              .pe-3
+                span.numero-circular
+                  b 1
+              p Grabaciones audiovisuales y grabaciones auditivas.
+
+            .d-flex.tarjeta-fig.p-3
+              .pe-3
+                span.numero-circular
+                  b 2
+              p Libros, artículos, prensa escrita y básicamente cualquier tipo de soporte que permita capturar y preservar la información, para recuperarla luego.
+          
+          .col-lg-4.my-4.order-first.order-lg-2
+            figure
+              img(src='@/assets/curso/temas/img-11.png')
+
+
+          .col-lg-3.order-3.mb-4
+            .d-flex.tarjeta-fig.p-3.mb-4
+              .pe-3
+                span.numero-circular
+                  b 3
+              p Los testimonios, los relatos, las reseñas, los ensayos, las páginas web, las reflexiones, los listados bibliográficos y los índices.
+
+            .d-flex.tarjeta-fig.p-3
+              .pe-3
+                span.numero-circular
+                  b 4
+              p Las grabaciones profesionales, accidentales o clandestinas, las fotografías, las filmaciones e incluso ilustraciones.
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") B. Identificar interesados del producto
+
+    .row.mb-4
+      .col-lg-2.mb-4.mb-lg-0
+        .fondo-color-sistema-j.borde-13.py-3
+          figure
+            img(src='@/assets/curso/temas/img-14.svg', style="max-width: 77px;margin: auto;")
+      .col-lg-10
+        p.mb-4(data-aos="fade") Uno de los primeros pasos en el proceso es el análisis e identificación de todas las personas relevantes que tienen un grado de interés en el proyecto. #[b Los interesados (#[em stakeholders]), son los individuos y organizaciones que están relacionados activamente en un proyecto de #[em software]]; tienen influencia directa o indirecta sobre los requisitos, o sus intereses se ven afectados por el proyecto (Baar, 2006, Ventura, 2002).
+
+        p(data-aos="fade") En resumen, son grupos o individuos que están interesados en el producto de #[em software] que se está desarrollando y necesitarán estar informados acerca del progreso, conflictos, cambios y prioridades del proceso de desarrollo del producto.
+
     p.mb-4(data-aos="fade") Los #[em stakeholders] se dividen en dos grupos:
-    
-    .hr1
-    .row.align-items-center(data-aos="fade-down")
-      .col-2.px-1.px-md-2.px-lg-3
-        figure
-          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img4.svg', style="margin: auto;")
-      .col-10
-        h4 Primarios
-        p Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas
-    .hr2
-    .row.align-items-center(data-aos="fade-down")
-      .col-2.px-1.px-md-2.px-lg-3
-        figure
-          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img5.svg', style="margin: auto;")
-      .col-10
-        h4 Secundarios
-        p Son los entes que no participan directamente de la compañía, pero también son afectados por sus resultados. En este círculo se encuentran los competidores, el mercado y las personas en general.
-    .hr2.mb-5
-    
+
+
+    .row.justify-content-center
+      .col-md-5.mb-4
+        .tarjeta-p-1.p-3
+          .d-flex.justify-content-between.mb-3
+            div
+              figure
+                img(src='@/assets/curso/temas/img-15.png')
+            div.tarjeta-p-1__img2
+              figure
+                img(src='@/assets/curso/temas/img-6.svg')
+          .h3.tarjeta-p-1__titulo.p-1 Primarios
+          p.tarjeta-p-1__parrafo Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas
+
+      .col-md-5.mb-4
+        .tarjeta-p-1.p-3
+          .d-flex.justify-content-between.mb-3
+            div
+              figure
+                img(src='@/assets/curso/temas/img-16.png')
+            div.tarjeta-p-1__img2
+              figure
+                img(src='@/assets/curso/temas/img-6.svg')
+          .h3.tarjeta-p-1__titulo.p-1 Secundarios
+          p.tarjeta-p-1__parrafo Son los entes que no participan directamente de la compañía, pero también son afectados por sus resultados. En este círculo se encuentran los competidores, el mercado y las personas en general.
+
+
     p.mb-4(data-aos="fade") A continuación, se listan roles más generales de las personas involucradas con sus términos similares, aunque cabe resaltar que existen leves diferencias entre ellos (Sommerville y Sawyer, 2005):
-    
-    ul.lista-ul--color.mb-4(data-aos="fade")  
-      li 
-        i.fas.fa-angle-right
-        | Líder de proyecto / Administrador de proyecto / Gerente de proyecto.
-      li 
-        i.fas.fa-angle-right
-        | Analista / Ingeniero de requisitos.
-      li 
-        i.fas.fa-angle-right
-        | Ingeniero de sistemas / Arquitecto.
-      li 
-        i.fas.fa-angle-right
-        | Programador / Desarrollador / Ingeniero de #[em software].
-      li 
-        i.fas.fa-angle-right
-        | Probador / Asegurador de la calidad.
-      li 
-        i.fas.fa-angle-right
-        | Administrador de bases de datos.
-    
+
+    .row.align-items-stretch.mb-4
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
+        .d-flex.align-items-center.h-100
+          figure
+            img(src='@/assets/curso/temas/img-17.png',style="max-width:400px;margin: auto;")
+      .col-lg-8.mb-4.mb-md-0
+        .fondo-color-sistema-j.borde-10.h-100.p-4.d-flex.align-items-center.pe-lg-0
+          ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+            li 
+              i.fas.fa-circle
+              | Líder de proyecto / Administrador de proyecto / Gerente de proyecto.
+            li 
+              i.fas.fa-circle
+              | Analista / Ingeniero de requisitos.
+            li
+              i.fas.fa-circle
+              | Ingeniero de sistemas / Arquitecto.
+            li
+              i.fas.fa-circle
+              | Programador / Desarrollador / Ingeniero de #[em software].
+            li
+              i.fas.fa-circle
+              | Probador / Asegurador de la calidad.
+            li.mb-0
+              i.fas.fa-circle
+              | Administrador de bases de datos.
+            
+          figure.w-auto.ms-4.align-self-start.d-none.d-md-block
+            img(src='@/assets/curso/temas/img-5.svg')
+
     p.mb-5(data-aos="fade") En la siguiente tabla se presentan los principales roles involucrados en el proceso de ingeniería de requisitos, así como las actividades en las que tienen mayor participación.
-    
-    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Tabla 2.] Roles involucrados en la ingeniería de requisitos
-    .tabla-a.color-acento-contenido.mb-4(data-aos="fade-down")
-      table
-        caption Nota: tomado de Ventura (2002)
-        thead
-          tr
-            th.table1(style="width: 260px") ROL
-            th.table1 Descripción
-        tbody
-          tr
-            td #[b Cliente]
-            td Representa a la persona u organización que solicita la creación de un sistema a un área de desarrollo y quien lo paga. Es con quien se negocia el tiempo, costo y alcance del proyecto. Pueden o no ser usuarios del sistema.
-          tr
-            td #[b Usuario]
-            td Son las personas que interactuarán con el sistema. Proporcionan información fundamental para el éxito del proyecto, ya que conocen y conviven con los procesos diarios.
-          tr
-            td #[b Líder de proyecto]
-            td Por parte del equipo de desarrollo, es el representante ante el cliente. Es la persona responsable de completar el proyecto exitosamente con los recursos dados.
-          tr
-            td #[b Analista]
-            td Su labor se enfoca en la ingeniería de requisitos, los identifica, analiza, modela y documenta. Además, establece contacto directo con los usuarios y utiliza diversas técnicas de comunicación y de recopilación de información para lograr su objetivo.
-          tr
-            td #[b Programador]
-            td Con base en los requisitos recibidos de parte de los ingenieros de requisitos, el programador realiza la codificación para producir el sistema deseado.
-          tr
-            td #[b Asegurador de la calidad]
-            td Garantiza el cumplimiento del proceso y de los estándares del producto. Enfocado en los requisitos, los verifica y valida para imprimir la calidad desde las primeras etapas del desarrollo. Paralelamente, prepara planes de prueba para esos requisitos del sistema.
-          tr
-            td #[b Arquitecto]
-            td Es el responsable del diseño de alto nivel y es clave a la hora de precisar los atributos de calidad del producto.
-    
+
+    .row.justify-content-center
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+          p.mb-0 #[b Tabla 2.] Roles involucrados en la ingeniería de requisitos
+        .tabla-a.color-acento-contenido.mb-4(data-aos="fade-down")
+          table
+            caption Nota: tomado de Ventura (2002)
+            thead
+              tr
+                th.table1(style="width: 260px") ROL
+                th.table1 Descripción
+            tbody
+              tr
+                td #[b Cliente]
+                td Representa a la persona u organización que solicita la creación de un sistema a un área de desarrollo y quien lo paga. Es con quien se negocia el tiempo, costo y alcance del proyecto. Pueden o no ser usuarios del sistema.
+              tr
+                td #[b Usuario]
+                td Son las personas que interactuarán con el sistema. Proporcionan información fundamental para el éxito del proyecto, ya que conocen y conviven con los procesos diarios.
+              tr
+                td #[b Líder de proyecto]
+                td Por parte del equipo de desarrollo, es el representante ante el cliente. Es la persona responsable de completar el proyecto exitosamente con los recursos dados.
+              tr
+                td #[b Analista]
+                td Su labor se enfoca en la ingeniería de requisitos, los identifica, analiza, modela y documenta. Además, establece contacto directo con los usuarios y utiliza diversas técnicas de comunicación y de recopilación de información para lograr su objetivo.
+              tr
+                td #[b Programador]
+                td Con base en los requisitos recibidos de parte de los ingenieros de requisitos, el programador realiza la codificación para producir el sistema deseado.
+              tr
+                td #[b Asegurador de la calidad]
+                td Garantiza el cumplimiento del proceso y de los estándares del producto. Enfocado en los requisitos, los verifica y valida para imprimir la calidad desde las primeras etapas del desarrollo. Paralelamente, prepara planes de prueba para esos requisitos del sistema.
+              tr
+                td #[b Arquitecto]
+                td Es el responsable del diseño de alto nivel y es clave a la hora de precisar los atributos de calidad del producto.
+
     p.mb-4 Algunas de las técnicas que se pueden emplear para llevar a cabo la labor de análisis de los #[em stakeholders] incluyen entrevistas con los expertos, lluvia de ideas en grupo y lista de chequeo. Se espera que este grupo de personas identifiquen y caractericen a los #[em stakeholders] objetivamente, por tal motivo es recomendable involucrar a personas de diferentes contextos (Karisen, 2002 citado en Wessinger, 2012).
-    
-    .row.align-items-start.mb-5.pt-5
-      .col-lg-6(data-aos="fade-right")
-        h3 #[span.txt-color C.] Matriz de #[em stakeholders]
-        p.mb-4 La utilización de esta #[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él], lo que facilita la priorización de los #[em stakeholders] más importantes para desarrollar las estrategias de gestión correspondientes.
-      .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
+
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") C. Matriz de #[em stakeholders]
+
+    p.mb-4 La utilización de esta #[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él], lo que facilita la priorización de los #[em stakeholders] más importantes para desarrollar las estrategias de gestión correspondientes.
+
+    .row.align-items-center.mb-4
+      .col-lg-8
+        .fondo-color-sistema-k.borde-12.p-4(style="position:relative;")
+          figure.img-dec-2-c-1
+            img(src='@/assets/curso/temas/img-20.svg')
+          .cont_c
+            figure.img-dec-1
+              img(src='@/assets/curso/temas/img-19.svg')
+            
+            .h4 Importancia de la matriz de #[em stakeholders] en los proyectos de desarrollo
+            p.mb-0 En los proyectos de desarrollo, la gestión de los #[em stakeholders] es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de #[em stakeholders] es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
+      
+      .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/img5.png', style="max-width: 80%; margin: auto;")
-    
-    h4(data-aos="fade") Importancia de la matriz de #[em stakeholders] en los proyectos de desarrollo
-    p.mb-5(data-aos="fade") En los proyectos de desarrollo, la gestión de los #[em stakeholders] es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de #[em stakeholders] es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
-   
-    h4(data-aos="fade") Proceso de armado de la matriz de #[em stakeholders]
-    p.mb-5(data-aos="fade") Para desarrollar la matriz de #[em stakeholders] es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
-    
+          img(src='@/assets/curso/temas/img-18.png',style="max-width:400px;margin: auto;")
+
+    .fondo-color-sistema-h.borde-12.p-4.mb-4
+      .position-relative(style="z-index: 1")
+        figure.position-absolute.top-0.end-0.w-auto.z-index-1(style="z-index: -1")
+          img(src='@/assets/curso/temas/img-19.svg')
+        h4(data-aos="fade") Proceso de armado de la matriz de #[em stakeholders]
+        p.mb-0(data-aos="fade") Para desarrollar la matriz de #[em stakeholders] es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
+
+
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 2.] Entradas, herramientas y técnicas, salidas
-    figure.mb-4(data-aos="fade-down").d-none.d-lg-block
-      img(src='@/assets/curso/temas/fig1.svg', style="max-width: 100%; margin: auto;" alt="Se presentan las entradas necesarias que proveen la información, las herramientas y técnicas y las salidas para así armar la matriz de stakeholders.")
-    .row.justify-content-center
-      .col-12.col-md-9
-        figure.mb-4(data-aos="fade-down").d-lg-none.d-block
-          img(src='@/assets/curso/temas/fig1-mob.svg', style="max-width: 100%; margin: auto;" alt="Se presentan las entradas necesarias que proveen la información, las herramientas y técnicas y las salidas para así armar la matriz de stakeholders.")
     
-    .tarjeta.bg-2.mb-5(data-aos="fade") 
-      .row.align-items-center.justify-content-center.p-4
-        .col-lg-1.col-md-2.col-4.mb-3.mb-md-0
-          img(src='@/assets/curso/temas/alert.svg', style="margin: auto;")
-        .col-lg-11.col-md-10
-          p.mb-0 Para profundizar en detalle, lo invitamos a consultar la Guía PMBOK 6 – 49 procesos, entradas, herramientas y salidas, que se encuentra en el material complementario.
+    .p-4.position-relative.mb-4
+      .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2
+        .d-flex.flex-column.h-100.justify-content-between
+          figure.mt-5
+            img(src='@/assets/curso/temas/img-12.svg',style="width: auto;margin-left: auto;")
+          figure.ms-4
+            img(src='@/assets/curso/temas/img-23.svg',style="width: auto;margin-right: auto;")
 
+      .position-relative(style="z-index: 1;")
+
+        .row.justify-content-center
+          .col-12.col-lg-10
+            .d-flex.flex-column.flex-lg-row.pt-lg-4
+              .borde-10.overflow-hidden.fondo-color-sistema-k.w-100(style="min-height: 200px;")
+                .p-2.fondo-color-primario.text-center
+                  .h3.text-white.mb-0 Entradas
+                .p-2.h-100.d-flex
+                  ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+                    li.mb-0 
+                      i.fas.fa-circle
+                      | Acta de constitución del proyecto.
+                    li.mb-0 
+                      i.fas.fa-circle
+                      | Documentos de adquisición.
+                    li.mb-0
+                      i.fas.fa-circle
+                      | Factores ambientales de la organización.
+                    li.mb-0
+                      i.fas.fa-circle
+                      | Activos de los procesos de la organización.
+              figure.my-4.d-lg-none
+                img(src='@/assets/curso/temas/img-21.svg',style="width: auto;margin: auto")
+              figure.d-none.d-lg-block.mx-3(style="width: auto;min-width: 40px;margin-top: auto;margin-bottom: auto;")
+                img(src='@/assets/curso/temas/img-24.svg')
+
+              .borde-10.overflow-hidden.fondo-color-sistema-k.w-100(style="min-height: 200px;")
+                .p-2.fondo-color-primario.text-center
+                  .h3.text-white.mb-0 Herramientas y técnicas
+                .p-2.h-100.d-flex
+                  ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+                    li.mb-0 
+                      i.fas.fa-circle
+                      | Análisis de los interesados.
+                    li.mb-0 
+                      i.fas.fa-circle
+                      | Juicio de expertos.
+              
+              figure.my-4.d-lg-none
+                img(src='@/assets/curso/temas/img-21.svg',style="width: auto;margin: auto")
+                
+              figure.d-none.d-lg-block.mx-3(style="width: auto;min-width: 40px;margin-top: auto;margin-bottom: auto;")
+                img(src='@/assets/curso/temas/img-24.svg')
+
+              .borde-10.overflow-hidden.fondo-color-sistema-k.w-100(style="min-height: 200px;")
+                .p-2.fondo-color-primario.text-center
+                  .h3.text-white.mb-0 Salidas
+                .p-2.h-100.d-flex
+                  ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+                    li.mb-0 
+                      i.fas.fa-circle
+                      | Matriz stakeholders (registro y estrategias de gestión).
+
+            .d-flex.flex-column.cont_d_3.p-3.flex-lg-row.mt-lg-4
+              figure.me-lg-4.w-auto(style="min-width: 80px;")
+                img(src='@/assets/curso/temas/img-22.svg',style="width: auto;")
+              p.mt-2 Para profundizar en detalle, lo invitamos a consultar la Guía PMBOK 6 – 49 procesos, entradas, herramientas y salidas, que se encuentra en el material complementario.
 
     h4(data-aos="fade") Descripción de los componentes de la matriz de #[em stakeholders]
+
     p.mb-4(data-aos="fade") A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de #[em stakeholders].
+
+    AcordionA(clase-tarjeta="borde-10 fondo-color-sistema-j ")
+      .row(titulo="<em>Stakeholder</em>")
+          .col-12.col-lg-11
+            p Es el nombre con el que se identifica al #[em stakeholder].
+
+
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-1" data-aos="fade-down")
       .row.justify-content-center(titulo="<em>Stakeholder</em>")
