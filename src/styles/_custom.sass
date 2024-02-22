@@ -208,6 +208,8 @@ table caption
   background-color: $color-primario !important
 .fondo-color-sistema-l
   background-color: $color-sistema-l !important
+.fondo-color-secundario
+  background-color: $color-secundario !important
 
 .cont_d_3
   position: relative
@@ -236,3 +238,62 @@ table caption
 .custom-acordiona
   .acordion__accion__btn--a
     background-color: $color-acento-botones
+
+.fondo-gradiente-2
+  position: relative
+  z-index: 1
+  &:before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 125%
+    height: 100%
+    left: -15%
+    right: 0
+    bottom: 0
+    top: 0
+    opacity: 0.49
+    background: linear-gradient(0deg, rgba(222,225,237,0.37) 0%, rgba(175,199,233,0.64) 40%, rgba(173,211,253,1) 100%)
+
+.fondo-gradiente-3
+  position: relative
+  z-index: 1
+  &:before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 125%
+    height: 90%
+    left: -15%
+    right: 0
+    bottom: 0
+    top: 10%
+    background: linear-gradient(180deg, rgba(249,252,255,0.23) 0%, rgba(200,227,254,0.49) 26%, rgba(226,240,255,1) 51%, rgba(224,239,255,1) 100%);
+
+.tabs-b
+  border-bottom: none 
+.tabs-b.color-acento-contenido .tabs-b__tab
+  border-bottom: none
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-top-color: $color-acento-botones !important
+
+ol.lista-ol--cuadro
+  li
+    display: flex
+    .lista-ol--cuadro__vineta
+      color: $color-sistema-texto
+
+.cont_tarjeta_cursor
+  height: 100%
+  position: relative
+  background-color: #DEE1ED
+  border-radius: 10px
+  z-index: 1
+  &:hover
+    background-color: #273A89
+    p,h4
+      color: white
+    .dec-1
+      display: block !important
+    .dec-2
+      display: none !important

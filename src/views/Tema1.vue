@@ -39,7 +39,7 @@
       .col-md-5(data-aos="fade-left")
         .d-flex.align-items-center.h-100
           figure
-            img(src='@/assets/curso/temas/img-2.png')
+            img(src='@/assets/curso/temas/img-2.png',style="width: auto;max-width: 100%;")
 
     Separador
 
@@ -249,7 +249,7 @@
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .d-flex.align-items-center.h-100
           figure
-            img(src='@/assets/curso/temas/img-17.png',style="max-width:400px;margin: auto;")
+            img(src='@/assets/curso/temas/img-17.png',style="width:auto;margin: auto;max-width:100%;")
       .col-lg-8.mb-4.mb-md-0
         .fondo-color-sistema-j.borde-10.h-100.p-4.d-flex.align-items-center.pe-lg-0
           ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
@@ -338,7 +338,7 @@
       
       .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/img-18.png',style="max-width:400px;margin: auto;")
+          img(src='@/assets/curso/temas/img-18.png',style="width: auto;margin: auto;max-width: 100%;")
 
     .fondo-color-sistema-h.borde-12.p-4.mb-4
       .position-relative(style="z-index: 1")
@@ -422,175 +422,183 @@
 
     p.mb-4(data-aos="fade") A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de #[em stakeholders].
 
-    AcordionA(clase-tarjeta="borde-10 fondo-color-sistema-j ")
-      .row(titulo="<em>Stakeholder</em>")
-          .col-12.col-lg-11
-            p Es el nombre con el que se identifica al #[em stakeholder].
-
-
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-1" data-aos="fade-down")
-      .row.justify-content-center(titulo="<em>Stakeholder</em>")
-        .col-12.col-lg-11
+    AcordionA.mb-4(clase-tarjeta="borde-10 fondo-color-sistema-j custom-acordiona")
+      .row.ms-5(titulo="<em>Stakeholder</em>")
+        .col-12
           p Es el nombre con el que se identifica al #[em stakeholder].
-      .row.justify-content-center(titulo="Tipo")
-        .col-12.col-lg-11
+      .row.ms-5(titulo="Tipo")
+        .col-12
           p Identifica si el #[em stakeholder] desempeña un rol interno o externo al proyecto mismo. Los #[em stakeholders] pueden ser internos, como el personal de las unidades ejecutoras, el personal administrativo o ejecutivo de la organización, el personal de las entidades financiadoras con alto nivel de poder e influencia en el proyecto y sus recursos; o externos como los beneficiarios del proyecto, las instituciones del sector o las organizaciones de la sociedad civil, quienes serán de un modo u otro impactados por los resultados del proyecto.
-      .row.justify-content-center(titulo="Objetivo o resultados")
-        .col-12.col-lg-11
+      .row.ms-5(titulo="Objetivo o resultados")
+        .col-12
           p En este campo se enlistan los objetivos o resultados en los que el #[em stakeholder] muestra interés o en aquellos en los que puede influir positiva o negativamente con sus acciones. Esta información puede ser suministrada por el acta de constitución de proyectos, la estructura de la organización, la estructura de desglose de trabajo, los diferentes planes que conforman el proyecto, entrevistas a los mismos interesados, etc.
-      .row.justify-content-center(titulo="Acciones posibles con impacto positivo / negativo")
-        .col-12.col-lg-11
+      .row.ms-5(titulo="Acciones posibles con impacto positivo / negativo")
+        .col-12
           p Son las acciones que puede emprender el #[em stakeholder] y que pueden influir, negativa o positivamente, en los objetivos del proyecto en los que muestra su interés o en aquellos en los que puede influir debido a su jerarquía, estatus, recursos de los que dispone, entre otros.
-      .row.justify-content-center(titulo="Estrategias")
-        .col-12.col-lg-11
+      .row.ms-5(titulo="Estrategias")
+        .col-12
           p Es un listado de acciones que se pueden emprender para obtener el apoyo necesario o evitar obstáculos por parte de los #[em stakeholders] durante la ejecución y conclusión del proyecto. Las estrategias se desarrollan considerando el tipo de #[em stakeholder], los objetivos en los que está interesado, el nivel de interés y poder que puede ejercer en el proyecto y las acciones posibles que podría emprender para afectar tanto positiva como negativamente al proyecto.
-      .row.justify-content-center(titulo="Conclusiones")
-        .col-12.col-lg-11
+      .row.ms-5(titulo="Conclusiones")
+        .col-12
           p Es la síntesis sobre puntos clave a considerar para gestionar de manera efectiva las expectativas de los #[em stakeholders]. Las conclusiones se obtienen de relacionar, analizar y sintetizar toda la información vertida en la matriz de #[em stakeholders].
-    
-    h4(data-aos="fade") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
-    p.mb-4(data-aos="fade") Como ya se había mencionado anteriormente, la matriz de #[em stakeholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
-    p.mb-4(data-aos="fade") La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 3).
-    
-    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Figura 3.] Ejemplo de matriz interés vs. influencia.
-    figure(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img7.png', style="max-width: 100%; margin: auto;" alt="Matriz que presenta un ejemplo de interés vs. Influencia.")
-      figcaption Nota: tomado de Gardnet et al. (1986)
-    
+      
+    .fondo-gradiente-2.pb-4
+      h4.pt-4(data-aos="fade") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
 
+      .row.align-items-center
+        .col-lg-8
+          p.mb-4(data-aos="fade") Como ya se había mencionado anteriormente, la matriz de #[em stakeholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
+          p.mb-4(data-aos="fade") La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 3).
+        .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/temas/img-25.png',style="width: auto;margin: auto;max-width: 100%;")
 
-    Separador 
+      .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+        p.mb-0 #[b Figura 3.] Ejemplo de matriz interés vs. influencia.
+
+      .p-4.position-relative
+        .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
+          .d-flex.flex-column.h-100.justify-content-between
+            figure.mt-5
+              img(src='@/assets/curso/temas/img-12.svg',style="width: auto;margin-left: auto;")
+            figure.ms-4
+              img(src='@/assets/curso/temas/img-23.svg',style="width: auto;margin-right: auto;")
+
+        .position-relative(style="z-index: 1;")
+          figure
+            img(src="@/assets/curso/temas/img-26.png",style="width: auto;margin: auto;max-width:100%;")
+
+    Separador.pt-0
 
     #t_1_2(data-aos="fade")
     .titulo-segundo.color-acento-contenido
       h2 1.2 Técnicas e instrumentos para elicitar requisitos
-    
-    p(data-aos="fade") Hay una variedad de técnicas propuestas para ingeniería de requerimientos (Herrera, 2003. p. 12), por lo que es primordial resaltar que estas técnicas pueden ser aplicables a las distintas fases del proceso de la ingeniería de requerimientos (IR), teniendo en cuenta las características propias del proyecto en particular que se esté desarrollándose para aprovechar al máximo su utilidad.
-    p.mb-4(data-aos="fade") A continuación, se presentará una serie de técnicas destinadas a facilitar la elicitación correcta y efectiva de los requisitos dentro de un proceso de desarrollo.
-    
-    h3(data-aos="fade") Entrevista
-    
-    .row.mb-5(data-aos="fade-down")
+
+    .row.align-items-center
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src="@/assets/curso/temas/img-27.png",style="width: auto;max-width: 100%;")
       .col-lg-8
-        .bloque-texto-b.color-primario.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left 
-            .h3.mb-0 La entrevista es una forma de recoger información de otra persona a través de una comunicación interpersonal que se lleva a cabo por medio de una conversación estructurada.
-            i.fas.fa-quote-right
-          br
-          p.mb-0 - (Braude, 2003)
+        p.mb-2(data-aos="fade") Hay una variedad de técnicas propuestas para ingeniería de requerimientos (Herrera, 2003. p. 12), por lo que es primordial resaltar que estas técnicas pueden ser aplicables a las distintas fases del proceso de la ingeniería de requerimientos (IR), teniendo en cuenta las características propias del proyecto en particular que se esté desarrollándose para aprovechar al máximo su utilidad.
+
+        p(data-aos="fade") A continuación, se presentará una serie de técnicas destinadas a facilitar la elicitación correcta y efectiva de los requisitos dentro de un proceso de desarrollo.
+
+
+    .fondo-gradiente-3
+      .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+        .row
+          .col-auto.pe-0
+            figure.ps-2.mb-1
+              img(src='@/assets/curso/temas/img-3.svg')
+          .col(style="place-self:center;")
+            h3.my-1.pe-4(style="padding-top:7px;") Entrevista
     
-    p.mb-5(data-aos="fade") En las entrevistas se pueden identificar tres fases: preparación, realización y análisis (Piattini <em>et al</em>, 1996), como se observa a continuación.
+      .contenedor-bloque-leyenda.mb-4
+        .row.justify-content-center.mx-1
+          .col-md-10.mb-4(data-aos="fade-down")
+            .text-center.contenedor-leyenda.px-5.pb-4
+              figure.mb-4
+                img(src='@/assets/curso/temas/img-1.svg', style="max-width: 80px;margin: auto")
+              .texto-leyenda
+                i.fas.fa-quote-left.i-izquierda
+                h4.mb-0 La entrevista es una forma de recoger información de otra persona a través de una comunicación interpersonal que se lleva a cabo por medio de una conversación estructurada.
+                i.fas.fa-quote-right.i-derecha
+              p.mt-2.mb-0 - (Braude, 2003)
+
+      p.mb-5(data-aos="fade") En las entrevistas se pueden identificar tres fases: preparación, realización y análisis (Piattini <em>et al</em>, 1996), como se observa a continuación.
+      
+      .row.justify-content-center
+        .col-lg-10
+          TabsB.color-acento-contenido.mb-5.bg-white(data-aos="fade-down")
+            .py-4.py-md-5.ps-4(titulo="1. Preparación" :icono="require('@/assets/curso/temas/img-28.svg')")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  h4 1. Preparación
+                  p.mb-4 El entrevistador debe documentarse e investigar la situación de la organización, analizando los documentos de la empresa disponible.
+                  ul.lista-ul--color.fa-ul.ms-0(data-aos="fade")
+                    li 
+                      i.fas.fa-circle
+                      | Se debe intentar minimizar el número de entrevistados, considerando las entrevistas de cortesía.
+                    li 
+                      i.fas.fa-circle
+                      | Analizar el perfil de los entrevistados.
+                    li 
+                      i.fas.fa-circle
+                      | Definir el objetivo y el contenido de la entrevista.
+                    li 
+                      i.fas.fa-circle
+                      | Planificar el lugar y la hora en la que se va a desarrollar la entrevista (es conveniente realizarla en un lugar confortable).
+                    li 
+                      i.fas.fa-circle
+                      |  Algunos proponen enviar previamente el entrevistado un cuestionario y un pequeño documento de introducción al proyecto de desarrollo.
+                .col-md-6
+                  figure
+                    img(src='@/assets/curso/temas/img8.png', style="max-width: 80%; margin: auto;")
+            .py-4.py-md-5.px-4(titulo="2. Realización" :icono="require('@/assets/curso/temas/img-29.svg')")
+              .row.align-items-center
+                .col-12
+                  h4 2. Realización
+                  p.mb-4 Dentro de la realización de las entrevistas se distinguen tres etapas, tal como se expone en Piattini et al. (1996):
+                  ol.lista-ol--cuadro.fa-ul.ms-0
+                    li.mb-4
+                      .lista-ol--cuadro__vineta
+                        span.fw-bold a.
+                      span.mb-0 #[b Apertura:] presentarse e informar al entrevistado sobre la razón de la entrevista.
+                    li
+                      .lista-ol--cuadro__vineta
+                        span.fw-bold b.
+                      span.mb-0 #[b Desarrollo:] cumplir las reglas del protocolo, hay que llegar a un acuerdo sobre cómo se va a registrar la información obtenida.
+                  p.ms-4 Durante esta fase se pueden emplear distintas técnicas:
+
+
+              .fondo-color-sistema-j.p-4.mb-4
+                ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+                  li.mb-3
+                    i.fas.fa-circle
+                    span.mb-0 #[b Preguntas abiertas:] también denominadas de libre contexto (Gause y Weinberg, 1989), estas preguntas no pueden  responderse con un #[b "sí"] o un #[b "no"], permiten una mayor comunicación y evitan la sensación de interrogatorio. Por  ejemplo, #[b "¿Qué se hace para registrar un pedido?"], #[b "Dígame qué se debe hacer cuando un cliente pide una factura"] o #[b “¿Cómo se rellena un recibo?"].
+                  li.mb-3 
+                    i.fas.fa-circle
+                    span.mb-0  #[b Utilizar palabras apropiadas:] se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que  puedan perturbar emocionalmente la comunicación (Goleman 1996, Goleman 1999).
+                  li.mb-3 
+                    i.fas.fa-circle
+                    span.mb-0  #[b Mostrar interés en todo momento:] es fundamental cuidar la comunicación no verbal (Davis, 1985) durante la entrevista:  tono de voz, movimiento, expresión facial.
+              ol.lista-ol--cuadro.fa-ul.ms-0
+                li 
+                  .lista-ol--cuadro__vineta
+                    span.fw-bold c.
+                  span.mb-0 #[b Terminación:] se termina recapitulando la entrevista agradeciendo el esfuerzo y dejando abierta la posibilidad de volver a contactar para aclarar conceptos o bien citándole para otra entrevista.
+            .py-4.py-md-5.ps-4(titulo="3. Análisis" :icono="require('@/assets/curso/temas/img-30.svg')")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  .h4 3. Análisis
+                  p.mb-4 Consiste en leer las notas, pasarlas en limpio, reorganizar la información, contrastarlas con otras entrevistas o fuentes de información, evaluar cómo ha ido la entrevista.
+                  p En estas entrevistas, el equipo de la ingeniería de requerimientos hace preguntas sobre el sistema que utilizan y sobre el sistema a desarrollar. Los requerimientos provienen de las respuestas a estas preguntas.
+                .col-md-6
+                  figure
+                    img(src='@/assets/curso/temas/img10.png', style="max-width: 80%; margin: auto;")
+
+    p.mt-4.mb-3(data-aos="fade") Las entrevistas se pueden clasificar fundamentalmente, en:
     
-    TabsB.color-acento-contenido.mb-5(data-aos="fade-down")
-      .py-4.py-md-5(titulo="Preparación" :icono="require('@/assets/curso/temas/img6.svg')")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h4 1. Preparación
-            p.mb-4 El entrevistador debe documentarse e investigar la situación de la organización, analizando los documentos de la empresa disponible.
-            ul.lista-ul--color.fa-ul(data-aos="fade")
-              li 
-                i.fas.fa-angle-right
-                | Se debe intentar minimizar el número de entrevistados, considerando las entrevistas de cortesía.
-              li 
-                i.fas.fa-angle-right
-                | Analizar el perfil de los entrevistados.
-              li 
-                i.fas.fa-angle-right
-                | Definir el objetivo y el contenido de la entrevista.
-              li 
-                i.fas.fa-angle-right
-                | Planificar el lugar y la hora en la que se va a desarrollar la entrevista (es conveniente realizarla en un lugar confortable).
-              li 
-                i.fas.fa-angle-right
-                |  Algunos proponen enviar previamente el entrevistado un cuestionario y un pequeño documento de introducción al proyecto de desarrollo.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/img8.png', style="max-width: 80%; margin: auto;")
-      .py-4.py-md-5(titulo="Realización" :icono="require('@/assets/curso/temas/img7.svg')")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h4 2. Realización
-            p.mb-4 Dentro de la realización de las entrevistas se distinguen tres etapas, tal como se expone en Piattini et al. (1996):
-            ol.lista-ol--cuadro.fa-ul
-              li 
-                .lista-ol--cuadro__vineta
-                  span.fw-bold a.
-                span.mb-0 #[b Apertura:] presentarse e informar al entrevistado sobre la razón de la entrevista.
-              li 
-                .lista-ol--cuadro__vineta
-                  span.fw-bold b.
-                span.mb-0 #[b Desarrollo:] cumplir las reglas del protocolo, hay que llegar a un acuerdo sobre cómo se va a registrar la información obtenida.
-            p Durante esta fase se pueden emplear distintas técnicas:
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/img9.png', style="max-width: 80%; margin: auto;")
-        .row.p-4.bg-color1.my-4
-          .col-12
-            ul.lista-ul--color.fa-ul.mb-0(data-aos="fade")
-              li.mb-0
-                i.fas.fa-angle-right
-                span.mb-0 #[b Preguntas abiertas:] también denominadas de libre contexto (Gause y Weinberg, 1989), estas preguntas no pueden  responderse con un #[b "sí"] o un #[b "no"], permiten una mayor comunicación y evitan la sensación de interrogatorio. Por  ejemplo, #[b "¿Qué se hace para registrar un pedido?"], #[b "Dígame qué se debe hacer cuando un cliente pide una factura"] o #[b “¿Cómo se rellena un recibo?"].
-              li.mb-0 
-                i.fas.fa-angle-right
-                span.mb-0  #[b Utilizar palabras apropiadas:] se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que  puedan perturbar emocionalmente la comunicación (Goleman 1996, Goleman 1999).
-              li.mb-0 
-                i.fas.fa-angle-right
-                span.mb-0  #[b Mostrar interés en todo momento:] es fundamental cuidar la comunicación no verbal (Davis, 1985) durante la entrevista:  tono de voz, movimiento, expresión facial.
-        ol.lista-ol--cuadro.fa-ul
-          li 
-            .lista-ol--cuadro__vineta
-              span.fw-bold c.
-            span.mb-0 #[b Terminación:] se termina recapitulando la entrevista agradeciendo el esfuerzo y dejando abierta la posibilidad de volver a contactar para aclarar conceptos o bien citándole para otra entrevista.
-      .py-4.py-md-5(titulo="Análisis" :icono="require('@/assets/curso/temas/img8.svg')")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            .h4 3. Análisis
-            p.mb-4 Consiste en leer las notas, pasarlas en limpio, reorganizar la información, contrastarlas con otras entrevistas o fuentes de información, evaluar cómo ha ido la entrevista.
-            p En estas entrevistas, el equipo de la ingeniería de requerimientos hace preguntas sobre el sistema que utilizan y sobre el sistema a desarrollar. Los requerimientos provienen de las respuestas a estas preguntas.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/img10.png', style="max-width: 80%; margin: auto;")
-    
-    p.mb-4(data-aos="fade") Las entrevistas se pueden clasificar fundamentalmente, en:
-    
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-1" data-aos="fade-down")
+   
+    AcordionA.mb-4(clase-tarjeta="borde-10 fondo-color-sistema-j custom-acordiona")
       .row.justify-content-center(titulo="Entrevista estructurada")
         .col-11
           p.mb-4 Las preguntas en esta entrevista se deciden, previamente, de acuerdo con el detalle de información requerida.
-          ul.lista-ul--color.fa-ul(data-aos="fade")
-            li 
-              i.fas.fa-angle-right
-              | Recoge de forma sistemática y precisa la mayor información sobre los aspectos que quiere explorar.
-            li 
-              i.fas.fa-angle-right
-              | Las preguntas son prefijadas y definidas, las respuestas son esperadas e incluso se le dan al entrevistado en forma de varias opciones.
-            li 
-              i.fas.fa-angle-right
-              | Las etapas son planificadas.
-            li 
-              i.fas.fa-angle-right
-              | La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
+          
+          .p-4.fondo-color-sistema-h.borde-10
+            ul.lista-ul--color.fa-ul.ms-0.mb-0(data-aos="fade")
+              li 
+                i.fas.fa-circle
+                | Recoge de forma sistemática y precisa la mayor información sobre los aspectos que quiere explorar.
+              li 
+                i.fas.fa-circle
+                | Las preguntas son prefijadas y definidas, las respuestas son esperadas e incluso se le dan al entrevistado en forma de varias opciones.
+              li 
+                i.fas.fa-circle
+                | Las etapas son planificadas.
+              li
+                i.fas.fa-circle
+                | La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
           .row.mt-5
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_Entrevista_estructurada.pdf')" target="_blank")
@@ -601,148 +609,234 @@
       .row.justify-content-center(titulo="Entrevista semiestructurada")
         .col-11
           p.mb-4 Esta presenta un grado mayor de flexibilidad que la estructurada, debido a que parten de preguntas planeadas, que pueden ajustarse a los entrevistados. Su ventaja es la posibilidad de adaptarse a los sujetos con enormes posibilidades para motivar al interlocutor, aclarar términos, identificar ambigüedades y reducir formalismos.
-          ul.lista-ul--color.fa-ul(data-aos="fade")
-            li 
-              i.fas.fa-angle-right
-              | Las preguntas, desarrollo e interpretación se planifican previamente, pero con un cierto grado de libertad de acción para abordar temas que pueden surgir durante la misma.
-            li 
-              i.fas.fa-angle-right
-              | Se suele utilizar un protocolo para facilitar al entrevistador seguir un modelo preestablecido.
+          .p-4.fondo-color-sistema-h.borde-10
+            ul.ms-0.mb-0.lista-ul--color.fa-ul
+              li 
+                i.fas.fa-circle
+                | Las preguntas, desarrollo e interpretación se planifican previamente, pero con un cierto grado de libertad de acción para abordar temas que pueden surgir durante la misma.
+              li 
+                i.fas.fa-circle
+                | Se suele utilizar un protocolo para facilitar al entrevistador seguir un modelo preestablecido.
       .row.justify-content-center(titulo="Entrevista no estructurada")
         .col-11
           p.mb-4 Las entrevistas no estructuradas suelen describirse como conversaciones mantenidas con un propósito en mente.
-          ul.lista-ul--color.fa-ul(data-aos="fade")
-            li 
-              i.fas.fa-angle-right
-              | No se estructura ni planifica previamente.
-            li 
-              i.fas.fa-angle-right
-              | Es la más ágil y la que proporciona más información en general, pero requiere un cierto dominio por parte del entrevistador.
+          .p-4.fondo-color-sistema-h.borde-10.mb-4
+            ul.lista-ul--color.fa-ul.mb-0.ms-0
+              li 
+                i.fas.fa-circle
+                | No se estructura ni planifica previamente.
+              li 
+                i.fas.fa-circle
+                | Es la más ágil y la que proporciona más información en general, pero requiere un cierto dominio por parte del entrevistador.
           p.mb-4 En el material complementario se pueden revisar ejemplo de entrevistas.
     
-    h3(data-aos="fade") Encuesta
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") Encuesta
 
-    .row.mb-5
-      .col-lg-7(data-aos="fade-right")
-        .bloque-texto-b.color-primario.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left 
-            .h3.mb-0 Los cuestionarios son herramientas ampliamente utilizadas para recoger datos de sondeos y pueden ser administradas sin la presencia del investigador.
-            i.fas.fa-quote-right
-          br
-          p.mb-0 - (Cohen, 2011, p. 377).
-      .col-lg-5.mt-4.mt-lg-0(data-aos="fade-left")
-        p Pueden variar en cuanto a propósito, diseño y apariencia, y consisten en listas de preguntas escritas. Los individuos participantes en la investigación suelen leer los mismos listados de preguntas, por lo que esto permite consistencia y precisión al analizar las respuestas, además de facilitar el proceso. Una de las ventajas más destacadas de los cuestionarios es que simplifican el proceso de la obtención de datos, preguntando directamente a los individuos participantes para obtener datos de forma rápida y directa y se pueden aplicar a un gran número de sujetos.
-    
-    p.mb-4(data-aos="fade") Los datos que se obtienen a través de los cuestionarios suelen estar clasificados en dos categorías: hechos y opiniones (Denscombe, 2010, p. 156). La información relacionada con los hechos no requiere el juicio o la actitud personal de los sujetos participantes, pero la información obtenida a través de las opiniones implica creencias, puntos de vista y preferencias de los sujetos participantes.
-    
+    .contenedor-bloque-leyenda.mb-4
+      .row.justify-content-center.mx-1
+        .col-md-10.mb-4(data-aos="fade-down")
+          .text-center.contenedor-leyenda.px-5.pb-4
+            figure.mb-4
+              img(src='@/assets/curso/temas/img-1.svg', style="max-width: 80px;margin: auto")
+            .texto-leyenda
+              i.fas.fa-quote-left.i-izquierda
+              h4.mb-0 Los cuestionarios son herramientas ampliamente utilizadas para recoger datos de sondeos y pueden ser administradas sin la presencia del investigador.
+              i.fas.fa-quote-right.i-derecha
+            p.mt-2.mb-0 - (Cohen, 2011, p. 377).
+
+    .row.align-items-center.mb-4
+      .col-lg-2.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/temas/img-31.png',style="width: auto;margin: auto;")
+      .col-lg-10
+        p.mb-4(data-aos="fade") Pueden variar en cuanto a propósito, diseño y apariencia, y consisten en listas de preguntas escritas. Los individuos participantes en la investigación suelen leer los mismos listados de preguntas, por lo que esto permite consistencia y precisión al analizar las respuestas, además de facilitar el proceso. Una de las ventajas más destacadas de los cuestionarios es que simplifican el proceso de la obtención de datos, preguntando directamente a los individuos participantes para obtener datos de forma rápida y directa y se pueden aplicar a un gran número de sujetos.
+        p(data-aos="fade") Los datos que se obtienen a través de los cuestionarios suelen estar clasificados en dos categorías: hechos y opiniones (Denscombe, 2010, p. 156). La información relacionada con los hechos no requiere el juicio o la actitud personal de los sujetos participantes, pero la información obtenida a través de las opiniones implica creencias, puntos de vista y preferencias de los sujetos participantes.
+
+    .row
+      .col-lg-6.mb-4
+        .cont_tarjeta_cursor.p-4
+          figure.dec-1.d-none.mb-1
+            img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
+          figure.dec-2.mb-1
+            img(src='@/assets/curso/temas/img-33.svg',style="max-width: 70px;margin-left: auto;")
+          figure
+            img(src='@/assets/curso/temas/img-32.png',style="width: auto;margin: auto;")
+          h4.text-center.my-4 Tipos de preguntas
+          p.mb-0 La distinción más general entre los tipos de preguntas de los #[b cuestionarios, además de hechos y opiniones, es la de preguntas abiertas y cerradas]; las preguntas abiertas son aquellas en las que no se especifica ninguna respuesta para elegir y se deja abierta a la elección del participante para que escriba en ella. Las preguntas cerradas son las que ofrecen ya unas respuestas predeterminadas para su elección.
+          .position-absolute.bottom-0(style="z-index: -1;")
+            figure
+              img(src='@/assets/curso/temas/img-34.svg',style="width: auto;")
+      .col-lg-6.mb-4
+        .cont_tarjeta_cursor.p-4
+          figure.dec-1.d-none.mb-1
+            img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
+          figure.dec-2.mb-1
+            img(src='@/assets/curso/temas/img-33.svg',style="max-width: 70px;margin-left: auto;")
+          figure
+            img(src='@/assets/curso/temas/img-35.png',style="width: auto;margin: auto;")
+          h4.text-center.my-4 Tipos de respuestas
+          p.mb-0 Las respuestas de escala son las más comunes en los cuestionarios de investigación ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es #[b “bueno”] o #[b “malo”], #[b “frecuente”] o #[b “infrecuente”], #[b “importante”] o #[b “poco importante”] o también pueden valorar opiniones: #[b “completamente de acuerdo”] o #[b “en desacuerdo”]. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
+          .position-absolute.bottom-0(style="z-index: -1;")
+            figure
+              img(src='@/assets/curso/temas/img-34.svg',style="width: auto;")
+
+    .row.justify-content-center
+      .col-lg-10
+        .d-flex.flex-column.cont_d_3.p-3.flex-lg-row
+          figure.me-lg-4.w-auto(style="min-width: 80px;")
+            img(src='@/assets/curso/temas/img-22.svg',style="width: auto;")
+          p.mt-2 Para ampliar la información, lo invitamos a ver el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
+
+
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") Observación
+
     .row.mb-4
-      .col-lg-6.p-4.bg-color2(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/img9.svg', style="max-width: 20%; margin: auto;")
-        h5.text-center.my-4 Tipos de preguntas
-        p La distinción más general entre los tipos de preguntas de los #[b cuestionarios, además de hechos y opiniones, es la de preguntas abiertas y cerradas]; las preguntas abiertas son aquellas en las que no se especifica ninguna respuesta para elegir y se deja abierta a la elección del participante para que escriba en ella. Las preguntas cerradas son las que ofrecen ya unas respuestas predeterminadas para su elección.
-      .col-lg-6.p-4.bg-color3(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/img10.svg', style="max-width: 11%; margin: auto;")
-        h5.text-center.my-4 Tipos de respuestas
-        p Las respuestas de escala son las más comunes en los cuestionarios de investigación ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es #[b “bueno”] o #[b “malo”], #[b “frecuente”] o #[b “infrecuente”], #[b “importante”] o #[b “poco importante”] o también pueden valorar opiniones: #[b “completamente de acuerdo”] o #[b “en desacuerdo”]. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
-    
-    .tarjeta.bg-2.mb-5(data-aos="fade") 
-      .row.align-items-center.justify-content-center.p-4
-        .col-lg-1.col-md-2.col-4.mb-3.mb-md-0
-          img(src='@/assets/curso/temas/alert.svg', style="margin: auto;")
-        .col-lg-11.col-md-10
-          p.mb-0 Para ampliar la información, lo invitamos a ver el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
+      .col-lg-2.mb-4.mb-lg-0
+        .borde-13.pb-3
+          figure
+            img(src="@/assets/curso/temas/img-36.png",style="width: auto;margin: auto;")
+      .col-lg-10
+        p.mb-4(data-aos="fade") Esta permite la obtención de datos para emprender una investigación de tipo cualitativo, no desde el punto de vista de lo que los sujetos dicen, sino que es la evidencia directa de lo que ve y percibe el investigador en un escenario de primera mano (Denscombe, 2010).
 
-    h3(data-aos="fade") Observación
-    p.mb-4(data-aos="fade") Esta permite la obtención de datos para emprender una investigación de tipo cualitativo, no desde el punto de vista de lo que los sujetos dicen, sino que es la evidencia directa de lo que ve y percibe el investigador en un escenario de primera mano (Denscombe, 2010).
-    p.mb-4(data-aos="fade") Por su parte, Selltiz (citado por Hernández, Fernández y Baptista, 2006, p. 229), al referirse a la observación, recomienda que para que esta se convierta en una técnica como tal, debe cumplir con cuatro condiciones:
-    
-    ol.lista-ol--cuadro.fa-ul(data-aos="fade")
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 1.
-        span.mb-0 Debe servir a un objeto formulado de investigación.
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 2.
-        span.mb-0 Debe de ser planificada sistemáticamente.
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 3.
-        span.mb-0 Debe estar controlada y relacionada con proposiciones generales.
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 4.
-        span.mb-0 Debe ser sujeta a comprobaciones y controles de validez y fiabilidad.
-    
+        p.mb-4(data-aos="fade") Por su parte, Selltiz (citado por Hernández, Fernández y Baptista, 2006, p. 229), al referirse a la observación, recomienda que para que esta se convierta en una técnica como tal, debe cumplir con cuatro condiciones:
+
+        .fondo-color-sistema-j.p-4.pe-lg-0.borde-10.d-inline-flex
+          ol.lista-ol--cuadro.fa-ul.ms-0.mb-0(data-aos="fade")
+            li 
+              .lista-ol--cuadro__vineta
+                span.fw-bold 1.
+              span.mb-0 Debe servir a un objeto formulado de investigación.
+            li 
+              .lista-ol--cuadro__vineta
+                span.fw-bold 2.
+              span.mb-0 Debe de ser planificada sistemáticamente.
+            li 
+              .lista-ol--cuadro__vineta
+                span.fw-bold 3.
+              span.mb-0 Debe estar controlada y relacionada con proposiciones generales.
+            li.mb-0
+              .lista-ol--cuadro__vineta
+                span.fw-bold 4.
+              span.mb-0 Debe ser sujeta a comprobaciones y controles de validez y fiabilidad.
+
+          figure.w-auto.ms-4.d-none.d-md-block
+            img(src='@/assets/curso/temas/img-5.svg')
+
     p.mb-4(data-aos="fade") De acuerdo con lo anterior, se puede asumir que la observación:
     
-    ul.lista-ul--color.fa-ul(data-aos="fade")
-      li 
-        i.fas.fa-angle-right
-        | Tiene la característica de seguir normas, reglas y procedimientos.
-      li 
-        i.fas.fa-angle-right
-        |  Permite a los sujetos y objetos establecer relaciones de manera directa.
+    .row
+      .col-lg-6
+        .d-flex.borde-10.p-3.fondo-color-secundario.align-items-center.mb-4
+          figure.me-3
+            img(src='@/assets/curso/temas/img-37.png',style="width: auto;max-width: 100%;")
+          p.text-white.mb-0 Tiene la característica de seguir normas, reglas y procedimientos.
 
-    figure.my-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img11.png', style="max-width: 100%; margin: auto;")
+        .d-flex.borde-10.p-3.fondo-color-secundario.align-items-center.mb-4
+          figure.me-3
+            img(src='@/assets/curso/temas/img-39.png',style="width: auto;max-width: 100%;")
+          p.text-white.mb-0 Tiene la característica de seguir normas, reglas y procedimientos.
+        p.mb-4 Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
+        p En la siguiente figura, se pueden revisar los tipos de observación.
+      
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/temas/img-38.png',style="width: auto;max-width: 100%;")
 
-    p Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
-    p.mb-4 En la siguiente figura, se pueden revisar los tipos de observación.
-
-    .titulo-sexto.color-acento-contenido(data-aos="fade")
+    .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 4.] Tipos de observación
-    figure.mb-5(data-aos="fade")
-      img(src='@/assets/curso/temas/img12.png', style="max-width: 100%; margin: auto;" alt="Los tipos de observación son pasiva y activa.")
+
+    .p-4.position-relative
+      .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
+        .d-flex.flex-column.h-100.justify-content-between
+          figure.mt-5
+            img(src='@/assets/curso/temas/img-12.svg',style="width: auto;margin-left: auto;")
+          figure.ms-4
+            img(src='@/assets/curso/temas/img-23.svg',style="width: auto;margin-right: auto;")
+
+      .position-relative(style="z-index: 1;")
+        figure.d-none.d-lg-block
+          img(src="@/assets/curso/temas/img-40.png",style="width: auto;margin: auto;max-width: 100%;")
+        figure.d-lg-none
+          img(src="@/assets/curso/temas/img-41.png",style="width: auto;margin: auto;max-width: 100%;")
 
     p.mb-4(data-aos="fade") Ahora bien, para llevar a cabo la observación, el observador puede utilizar como instrumento #[b la guía de observación], la cual le permite situarse de manera sistemática en aquello que realmente es objeto de estudio para la investigación; también es el medio que conduce la recolección y obtención de datos e información de un hecho o fenómeno.
+    p.mb-4 Tamayo (2004) define a la guía de observación como:
 
-    .bloque-texto-a.color-acento-botones.p-4.mb-5(data-aos="fade-down")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          .h2.mb-0 Tamayo (2004) define a la guía de observación como:
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p Un formato en el cual se pueden recolectar los datos en sistemática y se pueden registrar en forma uniforme, su utilidad consiste en ofrecer una revisión clara y objetiva de los hechos, agrupa los datos según necesidades específicas, se hace respondiendo a la estructura de las variables o elementos del problema (p. 172).
+    .row.mb-4.align-items-center
+      .col-lg-8
+        .p-4.position-relative.mb-4.mb-lg-0(style="background-color: #c5e0fe;z-index: 1;")
+          p.mb-0(style="opacity: 1") Un formato en el cual se pueden recolectar los datos en sistemática y se pueden registrar en forma uniforme, su utilidad consiste en ofrecer una revisión clara y objetiva de los hechos, agrupa los datos según necesidades específicas, se hace respondiendo a la estructura de las variables o elementos del problema (p. 172).
+          figure.d-inline-block.position-absolute(style="right: 0;bottom: 6%;width:auto;z-index: -1;")
+            img(src="@/assets/curso/temas/img-5.svg",style="width: auto;max-width: 100%;")
 
+          div(style="height: 8px;width: 25px;position: absolute;z-index: -1; background-color: #1682FB;top: 0;left: 0;")
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/temas/img-42.png",style="width: auto;margin: auto;max-width: 100%;")
     p.mb-4(data-aos="fade") Para elaborar la guía de observación se ha de diseñar el contenido de la observación; el cual debe incluir por lo menos los siguientes aspectos:
 
-    ol.lista-ol--cuadro.fa-ul.mb-4(data-aos="fade")
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 1.
-        span.mb-0 Datos y características de los sujetos a evaluar.
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 2.
-        span.mb-0 Propósitos de la observación o de las observaciones a realizar.
-      li 
-        .lista-ol--cuadro__vineta
-          span.fw-bold 3.
-        span.mb-0 Temporalidad de la observación.
+    .row
+      .col-lg-4
+        figure.mb-4.mb-lg-0
+          img(src="@/assets/curso/temas/img-43.png",style="width: auto;margin: auto;max-width: 100%;")
+      .col-lg-8
+        .fondo-color-sistema-j.p-4.pe-lg-0.borde-10.d-inline-flex.mb-4
+          ol.lista-ol--cuadro.fa-ul.ms-0.mb-0(data-aos="fade")
+            li 
+              .lista-ol--cuadro__vineta
+                span.fw-bold 1.
+              span.mb-0 Datos y características de los sujetos a evaluar.
+            li 
+              .lista-ol--cuadro__vineta
+                span.fw-bold 2.
+              span.mb-0 Propósitos de la observación o de las observaciones a realizar.
+            li.mb-0
+              .lista-ol--cuadro__vineta
+                span.fw-bold 3.
+              span.mb-0 Temporalidad de la observación.
 
-    .row.mb-5(data-aos="fade-down")
-      .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Ficha_de_observacion.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p #[b Anexo.] Ficha de observación.
+          figure.w-auto.ms-4.d-none.d-md-block
+            img(src='@/assets/curso/temas/img-5.svg')
 
-    h3(data-aos="fade") Sesiones grupales
+        .row
+          .col-lg-9
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_Entrevista_estructurada.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p #[b Anexo.] Ficha de observación.
 
-    .row.align-items-center.mb-5
-      .col-lg-6(data-aos="fade-right")
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") Sesiones grupales
+
+    .row
+      .col-lg-2
+        figure.mb-4.mb-lg-0
+          img(src='@/assets/curso/temas/img-44.png',style="width:auto;margin: auto;max-width: 100%;")
+      .col-lg-10
         p.mb-4 Es un proceso por el cual se llevan a cabo reuniones en grupo altamente estructuradas que convocan, en una misma sala, a los usuarios de un sistema, los propietarios del sistema y a los analistas durante un amplio periodo de tiempo. Los objetivos de esta técnica son esencialmente los mismos que los de las entrevistas, con la salvedad de necesitar más analistas para llevarlos a cabo. 
         p Dentro de las sesiones de trabajo en grupo se encuentran técnicas como la #[b lluvia de ideas, las sesiones JAD y el método Delphi].
-      .col-lg-6.mt-4.mt-lg-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/img13.png', style="max-width: 70%; margin: auto;")
+    
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta bg-1" data-aos="fade-down")
+    AcordionA.mb-4(clase-tarjeta="borde-10 fondo-color-sistema-j custom-acordiona")
       .row(titulo="Lluvia de ideas").align-items-center
         .col-lg-2.d-none.d-lg-block
           figure
@@ -750,33 +844,34 @@
         .col-lg-10
           p También denominada tormenta de ideas o incluso brainstorming. Faickney (1939) investigó sobre diferentes maneras de generar creatividad. Se percató de que la mejor manera de ser creativo en una empresa es a través de la interacción y el trabajo en equipo; todos juntos podían dar sus opiniones y sugerencias sobre un tema determinado. Creó de esta manera la lluvia de ideas.
       div(titulo="Sesiones JAD (Joint Application Design)")
-        .row.align-items-center
+        .row
           .col-lg-2.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/img12.svg', style="max-width: 70%; margin: auto;")
           .col-lg-10
             p.mb-4 Es un proceso usado para reunir requerimientos en el desarrollo de nuevos sistemas de información para una compañía. #[b El proceso JAD consiste en un taller donde los trabajadores del conocimiento y los especialistas en tecnologías de información se reúnen], algunas veces durante varios días, para definir y revisar los requerimientos de negocio para el sistema. Los asistentes incluyen oficiales de administración de alto nivel, quienes se aseguran de que el producto provea los reportes y la información requerida al final, esto actúa como #[b “un proceso de administración”] que permite que los departamentos de servicios de información corporativa trabajen más eficientemente con los usuarios en un marco de tiempo más reducido. 
-            p A través de los talleres JAD, los trabajadores del conocimiento y los especialistas en tecnologías de información pueden resolver cualquier dificultad o diferencias entre las posturas referentes al nuevo sistema de información. #[b El taller sigue una detallada agenda para lograr garantizar que todas las incertidumbres entre los grupos sean cubiertas y para ayudar a prevenir cualquier falla en la comunicación], estas fallas de comunicación pueden provocar repercusiones mucho más serias si no se identifican a tiempo. Al final, este proceso resultará en un nuevo Sistema de Información viable y orientado tanto a diseñadores como a usuarios.
+          p.ps-lg-5 A través de los talleres JAD, los trabajadores del conocimiento y los especialistas en tecnologías de información pueden resolver cualquier dificultad o diferencias entre las posturas referentes al nuevo sistema de información. #[b El taller sigue una detallada agenda para lograr garantizar que todas las incertidumbres entre los grupos sean cubiertas y para ayudar a prevenir cualquier falla en la comunicación], estas fallas de comunicación pueden provocar repercusiones mucho más serias si no se identifican a tiempo. Al final, este proceso resultará en un nuevo Sistema de Información viable y orientado tanto a diseñadores como a usuarios.
       div(titulo="Método Delphi")
         .row.align-items-center
-          .col-lg-2.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/img13.svg', style="max-width: 70%; margin: auto;")
-          .col-lg-10
-            .mb-4 Es un #[b método de estructuración de un proceso de comunicación grupal] que consiste en la selección de un grupo de expertos a los que se les pregunta su opinión frente a ciertas temáticas.
-            ul.lista-ul--color.fa-ul(data-aos="fade")
-              li 
-                i.fas.fa-angle-right
-                span.mb-0 #[b Fase uno.] Formulación del problema: se define el campo de investigación.
-              li 
-                i.fas.fa-angle-right
-                span.mb-0 #[b Fase dos.] Elección de expertos: el experto se elige según su preparación y su capacidad de proyección.
-              li 
-                i.fas.fa-angle-right
-                span.mb-0 #[b Fase tres.] Elaboración de cuestionarios: las preguntas deben hacerse de acuerdo con la temática que se quiere obtener.
-              li 
-                i.fas.fa-angle-right
-                span.mb-0 #[b Fase cuatro.] Desarrollo y explotación de resultados: el cuestionario se entrega a los expertos para ser contestado por ellos.
+          .col-12
+            .mb-4.ms-lg-5 Es un #[b método de estructuración de un proceso de comunicación grupal] que consiste en la selección de un grupo de expertos a los que se les pregunta su opinión frente a ciertas temáticas.
+            .fondo-color-sistema-h.borde-10.p-4.ms-lg-5.d-flex.flex-column.flex-lg-row
+              ul.lista-ul--color.fa-ul.ms-0.mb-0(data-aos="fade")
+                li 
+                  i.fas.fa-circle
+                  span.mb-0 #[b Fase uno.] Formulación del problema: se define el campo de investigación.
+                li 
+                  i.fas.fa-circle
+                  span.mb-0 #[b Fase dos.] Elección de expertos: el experto se elige según su preparación y su capacidad de proyección.
+                li 
+                  i.fas.fa-circle
+                  span.mb-0 #[b Fase tres.] Elaboración de cuestionarios: las preguntas deben hacerse de acuerdo con la temática que se quiere obtener.
+                li.mb-0 
+                  i.fas.fa-circle
+                  span.mb-0 #[b Fase cuatro.] Desarrollo y explotación de resultados: el cuestionario se entrega a los expertos para ser contestado por ellos.
+
+              figure( style="width: 70px;opacity: 0.3;margin: auto;")
+                img(src='@/assets/curso/temas/img13.svg', style="width: 70px;")
     
 
 
@@ -787,6 +882,67 @@
       h2 1.3. Herramientas para captura de requisitos
 
     p.mb-5(data-aos="fade") Existen varias herramientas para la captura de requisitos potenciales de un nuevo sistema o una actualización de #[em software], a continuación, se explican las más utilizadas:
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") Diagrama de casos de uso.
+
+    .row.mb-4
+      .col-lg-3
+        figure.mb-4.mb-lg-0
+          img(src='@/assets/curso/temas/img-45.png',style="width:auto;margin: auto;max-width: 100%;")
+      .col-lg-9
+        p.mb-4(data-aos="fade") Al momento de desarrollar un proyecto se debe pensar en cuáles serán las principales funcionalidades que el #[em software] debe permitir llevar a cabo y quiénes serán los que podrán ejecutar dichas funcionalidades. #[b La identificación de estos elementos se puede visualizar de manera efectiva a través de la elaboración de diagramas de casos de uso]; estos diagramas, que son elaborados durante las etapas iniciales de un proyecto, se convierten en referente para cada una de las etapas siguientes del desarrollo del proyecto.
+        p(data-aos="fade") Componentes. En los diagramas de casos de uso, se observan los siguientes componentes.
+
+    .row
+      .col-lg-6.mb-4
+        .cont_tarjeta_cursor.p-4
+          figure.dec-1.d-none.mb-1
+            img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
+          figure.dec-2.mb-1
+            img(src='@/assets/curso/temas/img-33.svg',style="max-width: 70px;margin-left: auto;")
+          figure
+            img(src='@/assets/curso/temas/img-46.png',style="width: auto;margin: auto;")
+          h4.text-center.my-4 Actor
+          p.mb-0 se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
+       
+      .col-lg-6.mb-4
+        .cont_tarjeta_cursor.p-4
+          figure.dec-1.d-none.mb-1
+            img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
+          figure.dec-2.mb-1
+            img(src='@/assets/curso/temas/img-33.svg',style="max-width: 70px;margin-left: auto;")
+          figure
+            img(src='@/assets/curso/temas/img-47.png',style="width: auto;margin: auto;")
+          h4.text-center.my-4 Caso de uso
+          p.mb-0 se representa mediante un óvalo e indica una función que el sistema debe proveer.
+          
+
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+
+
 
     h3(data-aos="fade") Diagrama de casos de uso.
     p(data-aos="fade") Al momento de desarrollar un proyecto se debe pensar en cuáles serán las principales funcionalidades que el #[em software] debe permitir llevar a cabo y quiénes serán los que podrán ejecutar dichas funcionalidades. #[b La identificación de estos elementos se puede visualizar de manera efectiva a través de la elaboración de diagramas de casos de uso]; estos diagramas, que son elaborados durante las etapas iniciales de un proyecto, se convierten en referente para cada una de las etapas siguientes del desarrollo del proyecto.
