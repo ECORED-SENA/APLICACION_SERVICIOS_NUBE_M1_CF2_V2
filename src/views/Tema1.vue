@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Elicitación de requisitos
@@ -43,8 +43,8 @@
 
     Separador
 
-    #t_1_1(data-aos="fade")
-    .titulo-segundo.color-acento-contenido
+    #t_1_1
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       h2 1.1. Planeación
     
     p.mb-4(data-aos="fade") La planeación busca definir las tareas a realizar para elegir y planificar las técnicas a emplear durante la actividad de elicitación de la fase de ingeniería de requisitos del desarrollo de #[em software]. En la siguiente tabla se presenta una relación de estas tareas y sus correspondientes procesos.
@@ -89,7 +89,7 @@
     
     .row.mb-4
       .col-lg-2.mb-4.mb-lg-0
-        .fondo-color-sistema-j.borde-13.py-3
+        .fondo-color-sistema-j.borde-13.py-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/img-4.svg', style="max-width: 77px;margin: auto;")
       .col-lg-10
@@ -117,7 +117,7 @@
 
     .fondo-gradiente-1
       .row.justify-content-center
-        .col-md-6.col-lg-4.mb-4
+        .col-md-6.col-lg-4.mb-4(data-aos="fade-right")
           .tarjeta-p-1.p-3
             .d-flex.justify-content-between
               div
@@ -128,7 +128,7 @@
                   img(src='@/assets/curso/temas/img-6.svg')
             .h3.tarjeta-p-1__titulo.p-1 Fuentes primarias
             p.tarjeta-p-1__parrafo Aportan material de primera mano (es protagonista o testigo de los hechos), estas fuentes contienen información original, que ha sido publicada por primera vez y que no ha sido filtrada, interpretada o evaluada por nadie más.
-        .col-md-6.col-lg-4.mb-4
+        .col-md-6.col-lg-4.mb-4(data-aos="fade-up")
           .tarjeta-p-1.p-3
             .d-flex.justify-content-between
               div
@@ -139,7 +139,7 @@
                   img(src='@/assets/curso/temas/img-6.svg')
             .h3.tarjeta-p-1__titulo.p-1 Fuentes secundarias
             p.tarjeta-p-1__parrafo Toman y reproducen la información que le aportó una fuente primaria. Son las que contienen información primaria, sintetizada y reorganizada y están especialmente diseñadas para facilitar y maximizar el acceso a las fuentes primarias o a sus contenidos. Parten de datos preelaborados, como pueden ser datos obtenidos de anuarios estadísticos, internet, medios de comunicación, bases de datos procesadas con otros fines, artículos y documentos relacionados con un tema, libros, tesis, informes oficiales, etc.
-        .col-md-6.col-lg-4.mb-4
+        .col-md-6.col-lg-4.mb-4(data-aos="fade-left")
           .tarjeta-p-1.p-3
             .d-flex.justify-content-between
               div
@@ -153,7 +153,7 @@
 
       p.mb-4(data-aos="fade")  Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
 
-      .titulo-sexto.color-acento-contenido.mb-3
+      .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-down")
         p.mb-0 #[b Figura 1.] Fuentes de información
 
       .contenedor-figura-1.p-4.pb-0
@@ -165,7 +165,7 @@
         p.text-center.mb-4.mt-2
           b Las fuentes de información o documentación pueden hallarse en diversos soportes.
         .row.justify-content-center
-          .col-lg-3.order-1.mb-4
+          .col-lg-3.order-1.mb-4(data-aos="fade-right")
             .d-flex.tarjeta-fig.p-3.mb-4
               .pe-3
                 span.numero-circular
@@ -178,12 +178,12 @@
                   b 2
               p Libros, artículos, prensa escrita y básicamente cualquier tipo de soporte que permita capturar y preservar la información, para recuperarla luego.
           
-          .col-lg-4.my-4.order-first.order-lg-2
+          .col-lg-4.my-4.order-first.order-lg-2(data-aos="fade")
             figure
               img(src='@/assets/curso/temas/img-11.png')
 
 
-          .col-lg-3.order-3.mb-4
+          .col-lg-3.order-3.mb-4(data-aos="fade-left")
             .d-flex.tarjeta-fig.p-3.mb-4
               .pe-3
                 span.numero-circular
@@ -206,7 +206,7 @@
 
     .row.mb-4
       .col-lg-2.mb-4.mb-lg-0
-        .fondo-color-sistema-j.borde-13.py-3
+        .fondo-color-sistema-j.borde-13.py-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/img-14.svg', style="max-width: 77px;margin: auto;")
       .col-lg-10
@@ -218,7 +218,7 @@
 
 
     .row.justify-content-center
-      .col-md-5.mb-4
+      .col-md-5.mb-4(data-aos="fade-right")
         .tarjeta-p-1.p-3
           .d-flex.justify-content-between.mb-3
             div
@@ -230,7 +230,7 @@
           .h3.tarjeta-p-1__titulo.p-1 Primarios
           p.tarjeta-p-1__parrafo Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas
 
-      .col-md-5.mb-4
+      .col-md-5.mb-4(data-aos="fade-left")
         .tarjeta-p-1.p-3
           .d-flex.justify-content-between.mb-3
             div
@@ -311,7 +311,7 @@
                 td #[b Arquitecto]
                 td Es el responsable del diseño de alto nivel y es clave a la hora de precisar los atributos de calidad del producto.
 
-    p.mb-4 Algunas de las técnicas que se pueden emplear para llevar a cabo la labor de análisis de los #[em stakeholders] incluyen entrevistas con los expertos, lluvia de ideas en grupo y lista de chequeo. Se espera que este grupo de personas identifiquen y caractericen a los #[em stakeholders] objetivamente, por tal motivo es recomendable involucrar a personas de diferentes contextos (Karisen, 2002 citado en Wessinger, 2012).
+    p.mb-4(data-aos="fade") Algunas de las técnicas que se pueden emplear para llevar a cabo la labor de análisis de los #[em stakeholders] incluyen entrevistas con los expertos, lluvia de ideas en grupo y lista de chequeo. Se espera que este grupo de personas identifiquen y caractericen a los #[em stakeholders] objetivamente, por tal motivo es recomendable involucrar a personas de diferentes contextos (Karisen, 2002 citado en Wessinger, 2012).
 
 
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
@@ -322,10 +322,10 @@
         .col(style="place-self:center;")
           h3.my-1.pe-4(style="padding-top:7px;") C. Matriz de #[em stakeholders]
 
-    p.mb-4 La utilización de esta #[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él], lo que facilita la priorización de los #[em stakeholders] más importantes para desarrollar las estrategias de gestión correspondientes.
+    p.mb-4(data-aos="fade") La utilización de esta #[b herramienta de análisis permite clasificar a los involucrados en el proyecto según sus niveles de interés y poder sobre él], lo que facilita la priorización de los #[em stakeholders] más importantes para desarrollar las estrategias de gestión correspondientes.
 
     .row.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         .fondo-color-sistema-k.borde-12.p-4(style="position:relative;")
           figure.img-dec-2-c-1
             img(src='@/assets/curso/temas/img-20.svg')
@@ -336,7 +336,7 @@
             .h4 Importancia de la matriz de #[em stakeholders] en los proyectos de desarrollo
             p.mb-0 En los proyectos de desarrollo, la gestión de los #[em stakeholders] es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de #[em stakeholders] es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
       
-      .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0
+      .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img-18.png',style="width: auto;margin: auto;max-width: 100%;")
 
@@ -413,7 +413,7 @@
                       i.fas.fa-circle
                       | Matriz stakeholders (registro y estrategias de gestión).
 
-            .d-flex.flex-column.cont_d_3.p-3.flex-lg-row.mt-lg-4
+            .d-flex.flex-column.cont_d_3.p-3.flex-lg-row.mt-lg-4(data-aos="fade-up")
               figure.me-lg-4.w-auto(style="min-width: 80px;")
                 img(src='@/assets/curso/temas/img-22.svg',style="width: auto;")
               p.mt-2 Para profundizar en detalle, lo invitamos a consultar la Guía PMBOK 6 – 49 procesos, entradas, herramientas y salidas, que se encuentra en el material complementario.
@@ -458,27 +458,27 @@
 
       .p-4.position-relative
         .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
-          .d-flex.flex-column.h-100.justify-content-between
+          .d-flex.flex-column.h-100.justify-content-between(data-aos="fade-right")
             figure.mt-5
               img(src='@/assets/curso/temas/img-12.svg',style="width: auto;margin-left: auto;")
             figure.ms-4
               img(src='@/assets/curso/temas/img-23.svg',style="width: auto;margin-right: auto;")
 
         .position-relative(style="z-index: 1;")
-          figure
+          figure(data-aos="fade")
             img(src="@/assets/curso/temas/img-26.png",style="width: auto;margin: auto;max-width:100%;")
 
     Separador.pt-0
 
-    #t_1_2(data-aos="fade")
-    .titulo-segundo.color-acento-contenido
+    #t_1_2
+    .titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       h2 1.2 Técnicas e instrumentos para elicitar requisitos
 
     .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/img-27.png",style="width: auto;max-width: 100%;")
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p.mb-2(data-aos="fade") Hay una variedad de técnicas propuestas para ingeniería de requerimientos (Herrera, 2003. p. 12), por lo que es primordial resaltar que estas técnicas pueden ser aplicables a las distintas fases del proceso de la ingeniería de requerimientos (IR), teniendo en cuenta las características propias del proyecto en particular que se esté desarrollándose para aprovechar al máximo su utilidad.
 
         p(data-aos="fade") A continuación, se presentará una serie de técnicas destinadas a facilitar la elicitación correcta y efectiva de los requisitos dentro de un proceso de desarrollo.
@@ -651,7 +651,7 @@
             p.mt-2.mb-0 - (Cohen, 2011, p. 377).
 
     .row.align-items-center.mb-4
-      .col-lg-2.mb-4.mb-lg-0
+      .col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/img-31.png',style="width: auto;margin: auto;")
       .col-lg-10
@@ -659,7 +659,7 @@
         p(data-aos="fade") Los datos que se obtienen a través de los cuestionarios suelen estar clasificados en dos categorías: hechos y opiniones (Denscombe, 2010, p. 156). La información relacionada con los hechos no requiere el juicio o la actitud personal de los sujetos participantes, pero la información obtenida a través de las opiniones implica creencias, puntos de vista y preferencias de los sujetos participantes.
 
     .row
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-right")
         .cont_tarjeta_cursor.p-4
           figure.dec-1.d-none.mb-1
             img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
@@ -672,7 +672,7 @@
           .position-absolute.bottom-0(style="z-index: -1;")
             figure
               img(src='@/assets/curso/temas/img-34.svg',style="width: auto;")
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-left")
         .cont_tarjeta_cursor.p-4
           figure.dec-1.d-none.mb-1
             img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
@@ -688,7 +688,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        .d-flex.flex-column.cont_d_3.p-3.flex-lg-row
+        .d-flex.flex-column.cont_d_3.p-3.flex-lg-row(data-aos="fade-down")
           figure.me-lg-4.w-auto(style="min-width: 80px;")
             img(src='@/assets/curso/temas/img-22.svg',style="width: auto;")
           p.mt-2 Para ampliar la información, lo invitamos a ver el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
@@ -738,20 +738,20 @@
     p.mb-4(data-aos="fade") De acuerdo con lo anterior, se puede asumir que la observación:
     
     .row
-      .col-lg-6
+      .col-lg-6(data-aos="fade-up")
         .d-flex.borde-10.p-3.fondo-color-secundario.align-items-center.mb-4
-          figure.me-3
+          figure.me-3(style="width: 52px")
             img(src='@/assets/curso/temas/img-37.png',style="width: auto;max-width: 100%;")
           p.text-white.mb-0 Tiene la característica de seguir normas, reglas y procedimientos.
 
         .d-flex.borde-10.p-3.fondo-color-secundario.align-items-center.mb-4
-          figure.me-3
+          figure.me-3(style="width: 52px")
             img(src='@/assets/curso/temas/img-39.png',style="width: auto;max-width: 100%;")
           p.text-white.mb-0 Tiene la característica de seguir normas, reglas y procedimientos.
         p.mb-4 Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
         p En la siguiente figura, se pueden revisar los tipos de observación.
       
-      .col-lg-6
+      .col-lg-6(data-aos="fade-down")
         figure
           img(src='@/assets/curso/temas/img-38.png',style="width: auto;max-width: 100%;")
 
@@ -813,7 +813,7 @@
 
         .row
           .col-lg-9
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_Entrevista_estructurada.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Ficha_de_observacion.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -828,10 +828,10 @@
           h3.my-1.pe-4(style="padding-top:7px;") Sesiones grupales
 
     .row
-      .col-lg-2
+      .col-lg-2(data-aos="fade-right")
         figure.mb-4.mb-lg-0
           img(src='@/assets/curso/temas/img-44.png',style="width:auto;margin: auto;max-width: 100%;")
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         p.mb-4 Es un proceso por el cual se llevan a cabo reuniones en grupo altamente estructuradas que convocan, en una misma sala, a los usuarios de un sistema, los propietarios del sistema y a los analistas durante un amplio periodo de tiempo. Los objetivos de esta técnica son esencialmente los mismos que los de las entrevistas, con la salvedad de necesitar más analistas para llevarlos a cabo. 
         p Dentro de las sesiones de trabajo en grupo se encuentran técnicas como la #[b lluvia de ideas, las sesiones JAD y el método Delphi].
     
@@ -900,7 +900,7 @@
         p(data-aos="fade") Componentes. En los diagramas de casos de uso, se observan los siguientes componentes.
 
     .row
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-right")
         .cont_tarjeta_cursor.p-4
           figure.dec-1.d-none.mb-1
             img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
@@ -911,317 +911,287 @@
           h4.text-center.my-4 Actor
           p.mb-0 se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
        
-      .col-lg-6.mb-4
+      .col-lg-6.mb-4(data-aos="fade-left")
         .cont_tarjeta_cursor.p-4
           figure.dec-1.d-none.mb-1
             img(src='@/assets/curso/temas/img-6.svg',style="max-width: 70px;margin-left: auto;")
           figure.dec-2.mb-1
             img(src='@/assets/curso/temas/img-33.svg',style="max-width: 70px;margin-left: auto;")
-          figure
+          figure(data-aos="zoom-in-right")
             img(src='@/assets/curso/temas/img-47.png',style="width: auto;margin: auto;")
           h4.text-center.my-4 Caso de uso
           p.mb-0 se representa mediante un óvalo e indica una función que el sistema debe proveer.
-          
 
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
-    br
+    .row.mb-4
+      .col-lg-4
+        p.mb-4(data-aos="fade") Para ejemplificar un proceso se puede emplear un verbo conjugado en infinitivo y que represente la función a realizar (administrar, gestionar, registrar, entre otros). A continuación, se presenta un ejemplo, en el cual se presenta un diagrama de casos de uso de la sistematización de un centro médico.
 
+        .fondo-color-sistema-j.p-4.pe-lg-0.borde-10.d-inline-flex.mb-4
+          ul.lista-ul--color.fa-ul.ms-0.mb-0(data-aos="fade")
+            li 
+              i.fas.fa-circle
+              | Administrar datos pacientes.
+            li 
+              i.fas.fa-circle
+              | Administrar datos tratamientos.
+            li
+              i.fas.fa-circle
+              | Gestionar citas.
+            li.mb-0
+              i.fas.fa-circle
+              | Generar reportes.
 
-
-    h3(data-aos="fade") Diagrama de casos de uso.
-    p(data-aos="fade") Al momento de desarrollar un proyecto se debe pensar en cuáles serán las principales funcionalidades que el #[em software] debe permitir llevar a cabo y quiénes serán los que podrán ejecutar dichas funcionalidades. #[b La identificación de estos elementos se puede visualizar de manera efectiva a través de la elaboración de diagramas de casos de uso]; estos diagramas, que son elaborados durante las etapas iniciales de un proyecto, se convierten en referente para cada una de las etapas siguientes del desarrollo del proyecto.
-    p.mb-5(data-aos="fade") Componentes. En los diagramas de casos de uso, se observan los siguientes componentes.
-    
-    h4(data-aos="fade") Actor
-    p.mb-4(data-aos="fade") se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
-    figure.my-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img14.png', style="max-width: 100%; margin: auto;")
-
-    h4(data-aos="fade") Caso de uso
-    p.mb-4(data-aos="fade") se representa mediante un óvalo e indica una función que el sistema debe proveer.
-    figure.my-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img15.png', style="max-width: 25%; margin: auto;")
-
-    p.mb-4(data-aos="fade") Para ejemplificar un proceso se puede emplear un verbo conjugado en infinitivo y que represente la función a realizar (administrar, gestionar, registrar, entre otros). A continuación, se presenta un ejemplo, en el cual se presenta un diagrama de casos de uso de la sistematización de un centro médico.
-
-    ul.lista-ul--color.fa-ul.mb-5(data-aos="fade")
-      li 
-        i.fas.fa-angle-right
-        | Administrar datos pacientes.
-      li 
-        i.fas.fa-angle-right
-        | Administrar datos tratamientos.
-      li 
-        i.fas.fa-angle-right
-        | Gestionar citas.
-      li 
-        i.fas.fa-angle-right
-        | Generar reportes.
-    
-    h4.mb-4(data-aos="fade") Representación gráfica
-    .titulo-sexto.color-acento-contenido(data-aos="fade")
-      p.mb-0 #[b Figura 5.] Caso de uso centro médico
-    figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img16.png', style="max-width: 100%; margin: auto;" alt="Representación gráfica de un diagrama de caso de uso de la sistematización de un centro médico.")
-    
-    h4(data-aos="fade") Identificación de casos de uso
-    p.mb-5(data-aos="fade") En el ejemplo anterior se observan los casos de uso identificados en el sistema, es decir, las funcionalidades que el sistema va a proveer (administrar datos pacientes, administrar datos tratamientos, gestionar citas, generar reportes).
-    
-    h4(data-aos="fade") Identificación de actores
-    p.mb-5(data-aos="fade") Los actores son los usuarios que podrán ejecutar los casos de uso, en el ejemplo anterior, se identificaron dos actores (médico y empleado).
-    
-    h4(data-aos="fade") Documentación
-    p.mb-4(data-aos="fade") La técnica de casos de uso requiere además de construir el diagrama de casos de uso, la descripción de estos. Esta descripción permite detallar el flujo de eventos que se da entre el Sistema y el Actor para llevar a cabo el caso de uso.
-    
-    .tarjeta.tarjeta.bg-color4.p-4.mb-5.shadow(data-aos="fade-down")
-      .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/img14.svg")
-        .col-md.col-lg-6
-          .h2 Documentación caso de uso
-          p.mb-4 A continuación, se presenta el formato diligenciado de acuerdo con el ejemplo del centro médico.
-          a.boton.boton--b(:href="obtenerLink('/downloads/Caso_de_uso.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
-    
-    h3(data-aos="fade") Historias de usuario
-    p(data-aos="fade") Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad #[em software] tal y como la percibe el usuario (Cohn, 2004).
-    p.mb-4(data-aos="fade") El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
-    
-    .row.justify-content-center.mb-5(data-aos="fade-down")
+          figure.w-auto.ms-4.d-none.d-md-block
+            img(src='@/assets/curso/temas/img-5.svg')
       .col-lg-8
-        .tarjeta.bg-color4.p-4.p-lg-5
-          .row.justify-content-center.align-items-center
-            .col-md-5.col-10.mb-3.mb-md-0
-              img(src='@/assets/curso/temas/nota.png')
-            .col-md-6
-              ul.lista-ul--color.fa-ul.color-acento-botones.size-20
-                li 
-                  i.fas.fa-angle-right
-                  p.mb-0 #[b Como] &lt;rol&gt;	
-                li 
-                  i.fas.fa-angle-right
-                  p.mb-0 #[b Quiero] &lt;eventos&gt;	
-                li 
-                  i.fas.fa-angle-right
-                  p.mb-0 #[b Para] &lt;funcionalidades&gt;	
-      //.col-10.col-lg-8
-        figure
-          img(src='@/assets/curso/temas/img17.png', style="max-width: 100%; margin: auto;")
-          figcaption Nota: tomado de Martin (s.f.)
-    
-    p(data-aos="fade") Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación #[em software], requiere de una #[b &lt;Acción&gt;] / #[b &lt;evento&gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
-    p.mb-4(data-aos="fade") A continuación se presentan ejemplos de historias de usuario.
-    //p.mb-4(data-aos="fade") En las siguientes figuras se presentan ejemplos de historias de usuario.
-    
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-9
-        .tarjeta.bg-color4.p-4.p-lg-5
-          .row.justify-content-center
-            .col-lg-5.mb-3.mb-lg-0
-              .bg-3.p-4.p-lg-5.h-100
-                h4.mb-0 Como un 
-                  span.txt-color2 cliente, quiero 
-                  | consultar 
-                  span.txt-color2 para 
-                  | poder encontrar el producto que deseo comprar.
-            .col-lg-5
-              .bg-3.p-4.p-lg-5.h-100
-                h4.mb-0 Como un 
-                  span.txt-color2 cliente, quiero 
-                  | que los productos seleccionados para la compra queden almacenados en un carrito de compra 
-                  span.txt-color2 para 
-                  | poder visualizar todos mis productos y el precio total.
-    //.row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-10.col-lg-8
-        figure
-          img(src='@/assets/curso/temas/img18.png', style="max-width: 100%; margin: auto;")
-          figcaption Nota: tomado de fatto www.fattocs.com <a href="http://i.ytimg.com/vi/Zi9E1aUO_1U/hqdefault.jpg" target="_blanck">http://i.ytimg.com/vi/Zi9E1aUO_1U/hqdefault.jpg</a>
-          
-    h4(data-aos="fade") Conversación para explicar mejor la historia de usuario
-    p.mb-4(data-aos="fade") Como se mencionó anteriormente, las historias de usuario son una frase sencilla y concisa, sin embargo, eso no impide que se pueda abrir un diálogo (conversación) entre todos los miembros del equipo. De hecho, esta conversación se debe llevar a cabo para explicar mejor la propia historia de usuario y conseguir objetivos como:
-    
-    ul.lista-ul--color.fa-ul(data-aos="fade")
-      li 
-        i.fas.fa-angle-right
-        | Detallar a mayor nivel como se realizará la solución.
-      li 
-        i.fas.fa-angle-right
-        | Clarificar aspectos de valor, funcionamiento y técnicos.
-      li 
-        i.fas.fa-angle-right
-        | Resolver las dudas que aparezcan.
-    
-    p.mb-5(data-aos="fade") Estas conversaciones llevarán a alcanzar acuerdos sobre los distintos puntos tratados, que quedarán reflejados en los criterios de aceptación y que permitirán validar cuando una historia de usuario está terminada.
-    
-    h4(data-aos="fade") Confirmación de los criterios de aceptación
-    p(data-aos="fade") Los criterios de aceptación, es decir, la confirmación. Se trata de criterios claros y específicos que todo el equipo debe comprender y que permitirán avaluar en el futuro si la implementación que se está desarrollando o las pruebas que se realicen están terminadas.
-    p.mb-4(data-aos="fade") A continuación, un ejemplo de una historia de usuario usando plantilla.
-    
-    .titulo-sexto.color-acento-contenido.mb-3
-      p.mb-0 #[b Figura 6.] Ejemplos de historias de usuario
-    figure.mb-4
-      img(src='@/assets/curso/temas/tabla.png', style="max-width: 100%; margin: auto;" alt="Ejemplos de historias de usuario")
+        .p-4.position-relative
+          .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
+            .d-flex.flex-column.h-100.justify-content-between
+              figure.mt-5
+                img(src='@/assets/curso/temas/img-12.svg',style="width: auto;margin-left: auto;")
+              figure.ms-4
+                img(src='@/assets/curso/temas/img-23.svg',style="width: auto;margin-right: auto;")
 
-    //.titulo-sexto.color-acento-contenido(data-aos="fade")
-      p.mb-0 #[b Tabla 4.] Ejemplos de historias de usuario
-    //.tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
-      table
-        thead
-          tr
-            th.table1(colspan='5') Enunciado de la historia
-            th.table1(colspan='3') Proceso
-        tbody
-          tr
-            td.table2 Identificador (ID) de la historia
-            td.table2 Rol
-            td.table2 Características / Funcionalidad
-            td.table2 Razón / Resultado
-            td.table2 Número (#) de escenario
-            td.table2 Criterio de aceptación (Título)
-            td.table2 Contexto
-            td.table2 Evento
-          tr
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-          tr
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-          tr
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-          tr
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-          tr
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-          tr
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-            td.table3
-    
-    .row.mb-5(data-aos="fade-down")
-      .col-7.col-md-5
+          .position-relative(style="z-index: 1;")
+            h4 Representación gráfica
+            .titulo-sexto.color-acento-contenido(data-aos="fade-down")
+              p.mb-0 #[b Figura 5.] Caso de uso centro médico
+            figure.d-none.d-lg-block
+              img(src="@/assets/curso/temas/img-48.png",style="width: auto;margin: auto;max-width: 100%;")
+            figure.d-lg-none
+              img(src="@/assets/curso/temas/img-49.png",style="width: auto;margin: auto;max-width: 100%;")
+
+    .fondo-gradiente-4
+      .row.align-items-end
+        .col-lg-8
+          .fondo-color-sistema-g.borde-10.p-4
+            h4(data-aos="fade") Identificación de casos de uso
+            p.mb-4(data-aos="fade") En el ejemplo anterior se observan los casos de uso identificados en el sistema, es decir, las funcionalidades que el sistema va a proveer (administrar datos pacientes, administrar datos tratamientos, gestionar citas, generar reportes).
+
+            hr.hr1
+
+            h4(data-aos="fade") Identificación de actores
+            p.mb-4(data-aos="fade") Los actores son los usuarios que podrán ejecutar los casos de uso, en el ejemplo anterior, se identificaron dos actores (médico y empleado).
+            
+            hr.hr1
+
+            h4(data-aos="fade") Documentación
+            p.mb-0(data-aos="fade") La técnica de casos de uso requiere además de construir el diagrama de casos de uso, la descripción de estos. Esta descripción permite detallar el flujo de eventos que se da entre el Sistema y el Actor para llevar a cabo el caso de uso.
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/temas/img-51.png",style="width: auto;margin: auto;max-width: 100%;")  
+
+      .row.justify-content-center
+        .col-lg-10
+          .p-4.mt-5(style="background-color:#ADD3FD;border-radius:12px;" data-aos="flip-up")
+            .row
+              .col-auto(style="margin: auto;")
+                figure.mb-lg-0.mb-2
+                  img(src="@/assets/curso/temas/img-50.svg" style="max-width:100px")
+              .col-lg.mb-4.mb-md-0.col-md-6
+                h4 Documentación caso de uso
+                p.mb-0 A continuación, se presenta el formato diligenciado de acuerdo con el ejemplo del centro médico.
+              .col-md-auto.text-center(style="place-self:center;")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Caso_de_uso.pdf')" target="_blank")
+                  span(style="color:initial;") Descargar
+                  i.fas.fa-file-download(style="color:initial;")
+
+    .fondo-gradiente-5
+      .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+        .row
+          .col-auto.pe-0
+            figure.ps-2.mb-1
+              img(src='@/assets/curso/temas/img-3.svg')
+          .col(style="place-self:center;")
+            h3.my-1.pe-4(style="padding-top:7px;") Historias de usuario
+      
+      p.mb-4(data-aos="fade") Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad #[em software] tal y como la percibe el usuario (Cohn, 2004).
+      p.mb-4(data-aos="fade") El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
+
+      .row.justify-content-center.mb-4
+        .col-lg-8
+          .borde-10.p-4.fondo-color-sistema-k.position-relative(style="border-bottom-left-radius: 0;border-bottom-right-radius: 0;z-index: 1;")
+            figure.position-absolute(style="left: 0;right: 0;z-index: -1;")
+              img(src='@/assets/curso/temas/img-33.svg',style="width: auto;max-width: 100%;margin-left: auto;")
+            figure.position-absolute.bottom-0(style="z-index: -1;")
+              img(src='@/assets/curso/temas/img-34.svg',style="width: auto;max-width: 100%;margin-left: auto;")
+            .row.justify-content-center.align-items-center
+              .col-lg-4
+                figure
+                  img(src='@/assets/curso/temas/img-52.png',style="width: auto;max-width: 100%;margin: auto;")
+              .col-lg-4
+                ul.lista-ul--color.fa-ul.ms-0.mb-0(data-aos="fade")
+                  li 
+                    i.fas.fa-circle
+                    p.mb-0 #[b Como] &lt;rol&gt;	
+                  li 
+                    i.fas.fa-circle
+                    p.mb-0 #[b Quiero] &lt;eventos&gt;	
+                  li 
+                    i.fas.fa-circle
+                    p.mb-0 #[b Para] &lt;funcionalidades&gt;	
+
+      p.mb-4(data-aos="fade") Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación #[em software], requiere de una #[b &lt;Acción&gt;] / #[b &lt;evento&gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
+      p.mb-4(data-aos="fade") A continuación se presentan ejemplos de historias de usuario.
+
+      .row.justify-content-center.mb-4
+        .col-lg-8
+          .borde-10.p-4.fondo-color-sistema-k.position-relative(style="border-bottom-left-radius: 0;border-bottom-right-radius: 0;z-index: 1;")
+            figure.position-absolute(style="left: 0;right: 0;z-index: -1;")
+              img(src='@/assets/curso/temas/img-33.svg',style="width: auto;max-width: 100%;margin-left: auto;")
+            figure.position-absolute.bottom-0(style="z-index: -1;")
+              img(src='@/assets/curso/temas/img-34.svg',style="width: auto;max-width: 100%;margin-left: auto;")
+            .row.justify-content-center
+              .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+                .p-4.h-100(style="background-color: #FFCE00;")
+                  p.mb-0 
+                    b Como un 
+                        span.txt-color-primario cliente, quiero 
+                        | consultar 
+                        span.txt-color-primario para 
+                        | poder encontrar el producto que deseo comprar.
+              .col-lg-5(data-aos="fade-left")
+                .p-4.h-100(style="background-color: #FFCE00;")
+                  p.mb-0 
+                    b Como un 
+                        span.txt-color-primario cliente, quiero 
+                        | consultar 
+                        span.txt-color-primario para 
+                        | poder encontrar el producto que deseo comprar.
+
+                  p.mb-0 
+                    b Como un 
+                      span.txt-color-primario cliente, quiero 
+                      | que los productos seleccionados para la compra queden almacenados en un carrito de compra 
+                      span.txt-color-primario para 
+                      | poder visualizar todos mis productos y el precio total.
+            
+      .row.justify-content-center.mb-4
+        .col-lg-10
+          .p-4.borde-10(style="background-color: #FFFFFF;")
+            h4(data-aos="fade") Conversación para explicar mejor la historia de usuario
+            p.mb-4(data-aos="fade") Como se mencionó anteriormente, las historias de usuario son una frase sencilla y concisa, sin embargo, eso no impide que se pueda abrir un diálogo (conversación) entre todos los miembros del equipo. De hecho, esta conversación se debe llevar a cabo para explicar mejor la propia historia de usuario y conseguir objetivos como:
+            
+            ul.lista-ul--color.fa-ul.mb-0(data-aos="fade")
+              li 
+                i.fas.fa-circle
+                | Detallar a mayor nivel como se realizará la solución.
+              li 
+                i.fas.fa-circle
+                | Clarificar aspectos de valor, funcionamiento y técnicos.
+              li 
+                i.fas.fa-circle
+                | Resolver las dudas que aparezcan.
+            
+            p(data-aos="fade") Estas conversaciones llevarán a alcanzar acuerdos sobre los distintos puntos tratados, que quedarán reflejados en los criterios de aceptación y que permitirán validar cuando una historia de usuario está terminada.
+
+      .row.justify-content-center.mb-4
+        .col-lg-10
+          .p-4.borde-10(style="background-color: #FFFFFF;")
+            h4(data-aos="fade") Confirmación de los criterios de aceptación
+            p.mb-4(data-aos="fade") Los criterios de aceptación, es decir, la confirmación. Se trata de criterios claros y específicos que todo el equipo debe comprender y que permitirán avaluar en el futuro si la implementación que se está desarrollando o las pruebas que se realicen están terminadas.
+            p(data-aos="fade") A continuación, un ejemplo de una historia de usuario usando plantilla.
+
+    .titulo-sexto.color-acento-contenido.position-relative(data-aos="fade-down",style="z-index: 1;")
+      p.mb-0 #[b Figura 6.] Ejemplos de historias de usuario
+
+    .p-4.position-relative.position-relative.mb-4(style="z-index: 1;")
+      .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
+        .d-flex.flex-column.h-100.justify-content-between
+          figure.mt-5
+            img(src='@/assets/curso/temas/img-12.svg',style="width: auto;margin-left: auto;")
+          figure.ms-4
+            img(src='@/assets/curso/temas/img-23.svg',style="width: auto;margin-right: auto;")
+
+      .position-relative(style="z-index: 1;",data-aos="fade-up")
+        figure
+          img(src="@/assets/curso/temas/img-53.png",style="width: auto;margin: auto;max-width: 100%;")
+
+
+    .row.mb-0(data-aos="fade-down")
+      .col-10.col-md-5
         a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo3.xls')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
             p.mb-3 #[b Anexo.] Ejemplos de historias de usuario
-    
-    h3(data-aos="fade") #[em Storyboard]
-    figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img20.png', style="max-width: 100%; margin: auto;")
-    
-    .bloque-texto-a.color-acento-botones.p-4.mb-5(data-aos="fade-down")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          .h2.mb-0 ¿Qué es un #[em Storyboard]?
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p Los #[em storyboards] son un tipo de prototipos muy utilizados, #[b consiste básicamente en ir mostrando en una secuencia de imágenes un proceso, acción o ejercicio que se puede realizar en el sistema una vez terminado], las imágenes van mostrando la evolución del sistema conforme el usuario interactúa con el sistema.
-    
-    p(data-aos="fade") Con esta técnica se pretende crear diferentes vistas del sistema en las primeras etapas de su implementación de la manera más rápida y barata posible [SUT02].
-    p(data-aos="fade") Una forma muy común de ejemplificar los #[em storyboards] es con las revistas de cómics, ya que van mostrando una secuencia de imágenes en cuadros con un orden establecido que permiten entender la línea de la historia contada. La técnica #[em storyboard] permite generar modelos o esquemas visuales como esbozos de interfaces gráficas de usuario (GUI).
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2.mb-1
+            img(src='@/assets/curso/temas/img-3.svg')
+        .col(style="place-self:center;")
+          h3.my-1.pe-4(style="padding-top:7px;") #[em storyboard]
+
+    .row
+      .col-lg-7
+        h4 ¿Qué es un #[em Storyboard]?
+
+        p Los #[em storyboards] son un tipo de prototipos muy utilizados, #[b consiste básicamente en ir mostrando en una secuencia de imágenes un proceso, acción o ejercicio que se puede realizar en el sistema una vez terminado], las imágenes van mostrando la evolución del sistema conforme el usuario interactúa con el sistema.
+
+        hr.hr1
+
+        p(data-aos="fade") Con esta técnica se pretende crear diferentes vistas del sistema en las primeras etapas de su implementación de la manera más rápida y barata posible [SUT02].
+        p(data-aos="fade") Una forma muy común de ejemplificar los #[em storyboards] es con las revistas de cómics, ya que van mostrando una secuencia de imágenes en cuadros con un orden establecido que permiten entender la línea de la historia contada. La técnica #[em storyboard] permite generar modelos o esquemas visuales como esbozos de interfaces gráficas de usuario (GUI).
+      .col-lg-5
+        figure.mb-4.mb-lg-0
+          img(src='@/assets/curso/temas/img-54.png',style="width: auto;max-width: 100%;")
+
+
     p.mb-4(data-aos="fade") A continuación, se detallan las principales características de los #[em storyboards]:
-    
-    .row.align-items-center.mb-5
-      .col-lg-6(data-aos="fade-right")
-        ul.lista-ul--color.fa-ul
-          li 
-            i.fas.fa-angle-right
-            | Se preserva el punto de vista del proceso del negocio.
-          li 
-            i.fas.fa-angle-right
-            | Se puede validar un escenario.
-          li 
-            i.fas.fa-angle-right
-            | Se pueden validar escenarios integradores logrando una visión global.
-          li 
-            i.fas.fa-angle-right
-            | Son más fáciles de comprender por el usuario.
-          li 
-            i.fas.fa-angle-right
-            | No genera falsas expectativas.
-          li 
-            i.fas.fa-angle-right
-            | El usuario sigue trabajando con herramientas conocidas.
-          li 
-            i.fas.fa-angle-right
-            | Son fáciles de mantener o adaptar a los cambios.
-          li 
-            i.fas.fa-angle-right
-            | Permiten incorporar modificaciones durante la validación.
-      .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/temas/img21.png', style="max-width: 60%; margin: auto;")
-    
-    p.mb-4(data-aos="fade") Las dos figuras siguientes muestran el ejemplo de un #[em storyboard] que representa un escenario de situación de vendedores de una empresa para explicar el cambio que sufrirá el trabajo, el primero representa la situación actual y el segundo como quedará con la implantación del sistema.
+      
+    .fondo-left-custom.p-4.mb-4
+      .row.align-items-center
+        .col-lg-6(data-aos="fade-right")
+          ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+            li 
+              i.fas.fa-circle
+              | Se preserva el punto de vista del proceso del negocio.
+            li 
+              i.fas.fa-circle
+              | Se puede validar un escenario.
+            li 
+              i.fas.fa-circle
+              | Se pueden validar escenarios integradores logrando una visión global.
+            li 
+              i.fas.fa-circle
+              | Son más fáciles de comprender por el usuario.
+            li 
+              i.fas.fa-circle
+              | No genera falsas expectativas.
+            li 
+              i.fas.fa-circle
+              | El usuario sigue trabajando con herramientas conocidas.
+            li 
+              i.fas.fa-circle
+              | Son fáciles de mantener o adaptar a los cambios.
+            li.mb-0
+              i.fas.fa-circle
+              | Permiten incorporar modificaciones durante la validación.
+        .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
+          figure
+            img(src='@/assets/curso/temas/img-55.png', style="width: auto;max-width: 100%;")
+
+
+    p.mb-5(data-aos="fade") Las dos figuras siguientes muestran el ejemplo de un #[em storyboard] que representa un escenario de situación de vendedores de una empresa para explicar el cambio que sufrirá el trabajo, el primero representa la situación actual y el segundo como quedará con la implantación del sistema.
     
     .row.align-items-start
       .col-lg-6(data-aos="fade-right")
+
         .titulo-sexto.color-acento-contenido.mb-0
           p.mb-0 #[b Figura 7.] Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure
           img(src='@/assets/curso/temas/img22.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente.")
-          figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
+          figcaption.mt-2(style="background-color: #F6F6F6;") Nota: 
+            span(style="font-weight: 400;") Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
           p.mb-0 #[b Figura 8.] Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure
           img(src='@/assets/curso/temas/img23.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema.")
-          figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
+          figcaption(style="background-color: #F6F6F6;") Nota: 
+            span(style="font-weight: 400;") Tomado de Granollers, Lorés y Perdrix (2002)
 
 
 
@@ -1231,142 +1201,167 @@
     .titulo-segundo.color-acento-contenido
       h2 1.4. Herramientas de modelado
 
-    .bloque-texto-a.color-acento-botones.p-4.my-5(data-aos="fade-down")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          .h2.mb-0 Estas herramientas permiten crear un "simulacro" del sistema.
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p.mb-4 Las herramientas de modelado de sistemas informáticos se emplean para la creación de modelos de sistemas que ya existen o que se desarrollarán; estas herramientas permiten crear un #[b "simulacro"] del sistema, a bajo coste y riesgo mínimo. #[b A bajo costo porque, es un conjunto de gráficos y textos que representan el sistema].
-            p El Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, #[em Unified Modeling Language]) #[b es el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado en la actualidad]; UML es un lenguaje gráfico que permite especificar, modelar, construir y documentar los elementos que forman un sistema #[em software].
+    .row
+      .col-lg-4
+        figure.mb-4.mb-lg-0(data-aos="fade-left")
+          img(src='@/assets/curso/temas/img-56.png', style="width: auto;max-width: 100%;margin: auto;")
+      .col-lg-8
+        p.mb-4 Las herramientas de modelado de sistemas informáticos se emplean para la creación de modelos de sistemas que ya existen o que se desarrollarán; estas herramientas permiten crear un #[b "simulacro"] del sistema, a bajo coste y riesgo mínimo. #[b A bajo costo porque, es un conjunto de gráficos y textos que representan el sistema].
+        p El Lenguaje Unificado de Modelado (UML, por sus siglas en inglés, #[em Unified Modeling Language]) #[b es el lenguaje de modelado de sistemas de #[em software] más conocido y utilizado en la actualidad]; UML es un lenguaje gráfico que permite especificar, modelar, construir y documentar los elementos que forman un sistema #[em software].
     
     p.mb-4(data-aos="fade") De otra parte, las herramientas CASE son un conjunto de programas y procesos “guiados”, que ayudan a los analistas, desarrolladores, ingenieros de #[em software] y diseñadores en una o todas las etapas que comprende un ciclo de vida, con el objetivo de facilitar el desarrollo de #[em software]. El objetivo general de estas herramientas es acelerar el proceso para el que han sido diseñadas, es decir, para automatizar o apoyar una o más fases del ciclo de vida del desarrollo de sistemas. CASE proporciona un conjunto de herramientas semiautomatizadas y automatizadas que están creando una nueva cultura de ingeniería en muchas empresas. Las herramientas CASE se diseñaron para aumentar la productividad en el desarrollo de #[em software] y reducir su costo.
     p.mb-4(data-aos="fade") Existen muchas herramientas para modelado tanto en libres como con derechos comerciales; a renglón seguido se listan las herramientas CASE más utilizadas:
-    
-    .row.mb-4
-      .col-md-6(data-aos="fade-right")
-        ul.lista-ul--color.fa-ul
-          li 
-            i.fas.fa-angle-right
-            | ER win.
-          li 
-            i.fas.fa-angle-right
-            | ArgoUML.
-          li 
-            i.fas.fa-angle-right
-            | Easy Case.
-          li 
-            i.fas.fa-angle-right
-            | Oracle Designer.
-          li 
-            i.fas.fa-angle-right
-            | Power Designer.
-          li 
-            i.fas.fa-angle-right
-            | System Architect.
-          li 
-            i.fas.fa-angle-right
-            | SNAP.
-          li 
-            i.fas.fa-angle-right
-            | Gliffy (https://www.gliffy.com/).
-      .col-md-6(data-aos="fade-left")
-        ul.lista-ul--color.fa-ul
-          li 
-            i.fas.fa-angle-right
-            | MagicDraw.
-          li 
-            i.fas.fa-angle-right
-            | Lucidchart.
-          li 
-            i.fas.fa-angle-right
-            | Papyrus Uml.
-          li 
-            i.fas.fa-angle-right
-            | Modelio.
-          li 
-            i.fas.fa-angle-right
-            | StarUml.
-          li 
-            i.fas.fa-angle-right
-            | Dia.
-          li 
-            i.fas.fa-angle-right
-            | Mono Uml.
-    
+
+    .row.mb-1(data-aos="fade")
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-57.png')
+        p.text-center ER win
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-58.png')
+        p.text-center ArgoUML
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-59.png')
+        p.text-center Easy Case
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-60.png')
+        p.text-center Oracle Designer
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-61.png')
+        p.text-center Power Designer
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-62.png')
+        p.text-center System Architect
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-63.png')
+        p.text-center SNAP
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-64.png')
+        p.text-center Gliffy 
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-65.png')
+        p.text-center MagicDraw
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-66.png')
+        p.text-center Lucidchart
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-67.png')
+        p.text-center Papyrus Uml
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-68.png')
+        p.text-center Modelio
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-69.png')
+        p.text-center StarUml
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-70.png')
+        p.text-center Dia
+      .col-xs-6.col-sm-6.col-md-3.col-lg-2
+        .herramienta-item.p-2.mb-3
+          img(src='@/assets/curso/temas/img-71.png')
+        p.text-center Mono Uml
+
+
     p.mb-4(data-aos="fade") A continuación, se realizará una descripción del top 5 de las más utilizadas.
     
-    TabsC.color-acento-contenido(data-aos="fade-down")
-      .py-3.py-md-4(titulo="Gliffy")
-        .row
-          .col-12
-            p.mb-4 La aplicación en línea Gliffy es una herramienta de diagramas UML basada en la nube. Apareció por primera vez en 2006 y se trata de una herramienta de modelado que crea todo tipo de diagramas, tales como diagramas de flujo, diagramas de Venn y, por supuesto, diagramas UML. La herramienta en línea fue escrita en HTML5 y es bastante popular gracias a su rapidez de reacción. Es de anotar que antes de que Gliffy pasara por la fase beta en 2007, la empresa homónima cooperó con el grupo de #[em software] australiano Atlassian. Ya en 2006, su #[em software] de colaboración Confluence integró un #[em plugin] de Gliffy y, más tarde, el equipo de Gliffy desarrolló un #[em plugin] para Jira. Google Workspace y Drive de Google también integran esta herramienta UML.
-            //figure
-              img(src='@/assets/curso/temas/img24.png', style="max-width: 100%; margin: auto;")
-              figcaption Nota: Tomado de <a href="https://www.gliffy.com/" target="_blank">https://www.gliffy.com/</a>
-      .py-3.py-md-4(titulo="ArgoUML")
-        .row
-          .col-12
-            p.mb-4 Ha sido durante mucho tiempo una de las herramientas UML gratuitas de código abierto más populares para el escritorio y aunque ya no se mantiene, muchos modeladores continúan usando el programa para tareas más pequeñas. Su #[em software] es multiplataforma, cuyo el requisito mínimo es Java 5 ArgoUML soporta todos los tipos de diagramas de la versión 1.4 de UML y perfiles UML. El programa también ofrece algunas formas decorativas que no forman parte del estándar UML.
-            p.mb-4 Además, aunque esta herramienta UML está disponible como descarga gratuita, ArgoUML #[b soporta una amplia gama de lenguajes de programación] cuyo código puede generarse a partir de un diagrama. La 	ingeniería inversa también es posible para Java, C++, PHP, C# y SQL. El programa reconoce otros idiomas como Delphi o Ruby cuando los agrega como extensiones a la carpeta de archivos ArgoULM.
-            //figure
-              img(src='@/assets/curso/temas/img25.png', style="max-width: 100%; margin: auto;")
-              figcaption Nota: Tomado de <a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/" target="_blank">https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/</a>
-      .py-3.py-md-4(titulo="MagicDraw")
-        .row
-          .col-12
-            p.mb-4 Esta aplicación de escritorio destaca por su diseño moderno y claro, así como por su variedad de funciones y la facilidad de su uso. Esta herramienta de diagramas UML ofrece además SysML, representación gráfica de procesos de negocio con BPMN #[i (Business Process Model and Notation)] y el marco de arquitectura UPDM #[i (United Profile for DoDAF/MODAF)].
-            p.mb-4 MagicDraw también ofrece lenguaje de especificación OCL #[i (Object Constraint Language)], y XMI, que 	puede usar para exportar diagramas a otros programas sin pérdidas de información.
-            //figure
-              img(src='@/assets/curso/temas/img26.png', style="max-width: 100%; margin: auto;")
-              figcaption Nota: Tomado de <a href="http://www.magicdraw.com" target="_blank">http://www.magicdraw.com</a>
-      .py-3.py-md-4(titulo="StarUML")
-        .row
-          .col-12
-            p.mb-4 Es una herramienta para el modelamiento de #[em software] basado en los estándares UML #[i (Unified Modeling Language)] y MDA #[i (Model Driven Arquitecture)].
-            p.mb-4 Da soporte completo al diseño UML mediante el uso de:
-            ul.lista-ul--color.fa-ul
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de casos de uso.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de clase.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de secuencia.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de colaboración.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de estados.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de actividad.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de componentes.
-              li 
-                i.fas.fa-angle-right
-                | Diagrama de despliegue.
-              li 
-                i.fas.fa-angle-right
-                |  Diagrama de composición estructural (UML 2.0).
-            //figure
-              img(src='@/assets/curso/temas/img27.png', style="max-width: 100%; margin: auto;")
-              figcaption Nota: Tomado de <a href="https://staruml.io/" target="_blank">https://staruml.io/</a>
-      .py-3.py-md-4(titulo="Lucidchart")
-        .row
-          .col-12
-            p.mb-4 Herramienta para hacer diagramas UML #[i online] que permite comprender las complejidades en el código de forma más rápida y sencilla, pues automatiza el proceso de generación de un diagrama de clases. Simplemente elabora y personaliza los diagramas de secuencia en línea a partir del texto. Al ingresar el marcado en el diálogo emergente, Lucidchart generará automáticamente un diagrama de secuencia que cumple el estándar de PlantUML.
-            //figure
-              img(src='@/assets/curso/temas/img28.png', style="max-width: 100%; margin: auto;")
-              figcaption Nota: Tomado de <a href="https://www.lucidchart.com/" target="_blank">https://www.lucidchart.com/</a>
+    .row.justify-content-center
+      .col-lg-10
+        TabsC.color-acento-contenido(data-aos="fade-down")
+          .py-3.py-md-4(titulo="Gliffy")
+            .row
+              .col-12
+                .row
+                  .col-lg-2
+                    figure.mb-4.mb-lg-0
+                      img(src='@/assets/curso/temas/img-64.png',style="width: auto;max-width: 100%;")
+                  .col-lg-10
+                    p.mb-4 La aplicación en línea Gliffy es una herramienta de diagramas UML basada en la nube. Apareció por primera vez en 2006 y se trata de una herramienta de modelado que crea todo tipo de diagramas, tales como diagramas de flujo, diagramas de Venn y, por supuesto, diagramas UML. La herramienta en línea fue escrita en HTML5 y es bastante popular gracias a su rapidez de reacción. Es de anotar que antes de que Gliffy pasara por la fase beta en 2007, la empresa homónima cooperó con el grupo de #[em software] australiano Atlassian. Ya en 2006, su #[em software] de colaboración Confluence integró un #[em plugin] de Gliffy y, más tarde, el equipo de Gliffy desarrolló un #[em plugin] para Jira. Google Workspace y Drive de Google también integran esta herramienta UML.
 
-
-
-
+          .py-3.py-md-4(titulo="ArgoUML")
+            .row
+              .col-12
+                .row
+                  .col-lg-2
+                    figure.mb-4.mb-lg-0
+                      img(src='@/assets/curso/temas/img-58.png',style="width: auto;max-width: 100%;")
+                  .col-lg-10
+                    p.mb-4 Ha sido durante mucho tiempo una de las herramientas UML gratuitas de código abierto más populares para el escritorio y aunque ya no se mantiene, muchos modeladores continúan usando el programa para tareas más pequeñas. Su #[em software] es multiplataforma, cuyo el requisito mínimo es Java 5 ArgoUML soporta todos los tipos de diagramas de la versión 1.4 de UML y perfiles UML. El programa también ofrece algunas formas decorativas que no forman parte del estándar UML.
+                    p.mb-4 Además, aunque esta herramienta UML está disponible como descarga gratuita, ArgoUML #[b soporta una amplia gama de lenguajes de programación] cuyo código puede generarse a partir de un diagrama. La 	ingeniería inversa también es posible para Java, C++, PHP, C# y SQL. El programa reconoce otros idiomas como Delphi o Ruby cuando los agrega como extensiones a la carpeta de archivos ArgoULM.
+                //figure
+                  img(src='@/assets/curso/temas/img25.png', style="max-width: 100%; margin: auto;")
+                  figcaption Nota: Tomado de <a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/" target="_blank">https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/</a>
+          .py-3.py-md-4(titulo="MagicDraw")
+            .row
+              .col-12
+                .row
+                  .col-lg-2
+                    figure.mb-4.mb-lg-0
+                      img(src='@/assets/curso/temas/img-65.png',style="width: auto;max-width: 100%;")
+                  .col-lg-10
+                    p.mb-4 Esta aplicación de escritorio destaca por su diseño moderno y claro, así como por su variedad de funciones y la facilidad de su uso. Esta herramienta de diagramas UML ofrece además SysML, representación gráfica de procesos de negocio con BPMN #[i (Business Process Model and Notation)] y el marco de arquitectura UPDM #[i (United Profile for DoDAF/MODAF)].
+                    p.mb-4 MagicDraw también ofrece lenguaje de especificación OCL #[i (Object Constraint Language)], y XMI, que 	puede usar para exportar diagramas a otros programas sin pérdidas de información.
+        
+          .py-3.py-md-4(titulo="StarUML")
+            .row
+              .col-12
+                .row
+                  .col-lg-2
+                      figure.mb-4.mb-lg-0
+                        img(src='@/assets/curso/temas/img-69.png',style="width: auto;max-width: 100%;")
+                  .col-lg-10
+                    p.mb-4 Es una herramienta para el modelamiento de #[em software] basado en los estándares UML #[i (Unified Modeling Language)] y MDA #[i (Model Driven Arquitecture)].
+                    p.mb-4 Da soporte completo al diseño UML mediante el uso de:
+                    ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de casos de uso.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de clase.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de secuencia.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de colaboración.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de estados.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de actividad.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de componentes.
+                      li 
+                        i.fas.fa-circle
+                        | Diagrama de despliegue.
+                      li 
+                        i.fas.fa-circle
+                        |  Diagrama de composición estructural (UML 2.0).
+              
+          .py-3.py-md-4(titulo="Lucidchart")
+            .row
+              .col-12
+                .row
+                  .col-lg-2
+                      figure.mb-4.mb-lg-0
+                        img(src='@/assets/curso/temas/img-66.png',style="width: auto;max-width: 100%;")
+                  .col-lg-10
+                    p.mb-4 Herramienta para hacer diagramas UML #[i online] que permite comprender las complejidades en el código de forma más rápida y sencilla, pues automatiza el proceso de generación de un diagrama de clases. Simplemente elabora y personaliza los diagramas de secuencia en línea a partir del texto. Al ingresar el marcado en el diálogo emergente, Lucidchart generará automáticamente un diagrama de secuencia que cumple el estándar de PlantUML.
 
 </template>
 
