@@ -7,7 +7,7 @@
 
     .row.justify-content-center
       .col-lg-12.mb-5
-        .p-4(style="background-color: #F6F6F6;border-radius: 15px;")
+        .p-1.p-lg-4(style="background-color: #F6F6F6;border-radius: 15px;")
           figure
             img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema general del componente formativo, que enuncia las temáticas desarrolladas en el mismo y destaca aspectos clave estudiados. Tema central: elicitación de requisitos. Temas integradores: planeación, técnicas e instrumentos, herramientas para captura de requisitos y herramienta de modelado.")
       .col-auto

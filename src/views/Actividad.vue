@@ -10,12 +10,12 @@
             img(src="@/assets/template/arrastrar-terminos.svg", alt="")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 ¡Pon a prueba tu conocimiento!
-        p.mb-4 La siguiente actividad tiene como propósito validar los conocimientos relacionados con el tema #[b La fase de elicitación de requisitos]. 
+          h2 Técnicas de Recolección de Información
+        p.mb-4 Conocer las diferentes técnicas de recolección de información, así como sus instrumentos y buenas prácticas para ser empleadas durante el proceso de elicitación de requisitos de software.  (integralidad) 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Relación de términos
+              p.fw-bold.mb-0 Relacionar términos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

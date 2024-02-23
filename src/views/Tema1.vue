@@ -423,22 +423,22 @@
     p.mb-4(data-aos="fade") A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de #[em stakeholders].
 
     AcordionA.mb-4(clase-tarjeta="borde-10 fondo-color-sistema-j custom-acordiona")
-      .row.ms-5(titulo="<em>Stakeholder</em>")
+      .row.ms-1.ms-lg-5(titulo="<em>Stakeholder</em>")
         .col-12
           p Es el nombre con el que se identifica al #[em stakeholder].
-      .row.ms-5(titulo="Tipo")
+      .row.ms-1.ms-lg-5(titulo="Tipo")
         .col-12
           p Identifica si el #[em stakeholder] desempeña un rol interno o externo al proyecto mismo. Los #[em stakeholders] pueden ser internos, como el personal de las unidades ejecutoras, el personal administrativo o ejecutivo de la organización, el personal de las entidades financiadoras con alto nivel de poder e influencia en el proyecto y sus recursos; o externos como los beneficiarios del proyecto, las instituciones del sector o las organizaciones de la sociedad civil, quienes serán de un modo u otro impactados por los resultados del proyecto.
-      .row.ms-5(titulo="Objetivo o resultados")
+      .row.ms-1.ms-lg-5(titulo="Objetivo o resultados")
         .col-12
           p En este campo se enlistan los objetivos o resultados en los que el #[em stakeholder] muestra interés o en aquellos en los que puede influir positiva o negativamente con sus acciones. Esta información puede ser suministrada por el acta de constitución de proyectos, la estructura de la organización, la estructura de desglose de trabajo, los diferentes planes que conforman el proyecto, entrevistas a los mismos interesados, etc.
-      .row.ms-5(titulo="Acciones posibles con impacto positivo / negativo")
+      .row.ms-1.ms-lg-5(titulo="Acciones posibles con impacto positivo / negativo")
         .col-12
           p Son las acciones que puede emprender el #[em stakeholder] y que pueden influir, negativa o positivamente, en los objetivos del proyecto en los que muestra su interés o en aquellos en los que puede influir debido a su jerarquía, estatus, recursos de los que dispone, entre otros.
-      .row.ms-5(titulo="Estrategias")
+      .row.ms-1.ms-lg-5(titulo="Estrategias")
         .col-12
           p Es un listado de acciones que se pueden emprender para obtener el apoyo necesario o evitar obstáculos por parte de los #[em stakeholders] durante la ejecución y conclusión del proyecto. Las estrategias se desarrollan considerando el tipo de #[em stakeholder], los objetivos en los que está interesado, el nivel de interés y poder que puede ejercer en el proyecto y las acciones posibles que podría emprender para afectar tanto positiva como negativamente al proyecto.
-      .row.ms-5(titulo="Conclusiones")
+      .row.ms-1.ms-lg-5(titulo="Conclusiones")
         .col-12
           p Es la síntesis sobre puntos clave a considerar para gestionar de manera efectiva las expectativas de los #[em stakeholders]. Las conclusiones se obtienen de relacionar, analizar y sintetizar toda la información vertida en la matriz de #[em stakeholders].
       
@@ -758,7 +758,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 4.] Tipos de observación
 
-    .p-4.position-relative
+    .p-4.position-relative.mb-4
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
         .d-flex.flex-column.h-100.justify-content-between
           figure.mt-5
@@ -870,7 +870,7 @@
                   i.fas.fa-circle
                   span.mb-0 #[b Fase cuatro.] Desarrollo y explotación de resultados: el cuestionario se entrega a los expertos para ser contestado por ellos.
 
-              figure( style="width: 70px;opacity: 0.3;margin: auto;")
+              figure( style="width: 70px;opacity: 0.3;margin-bottom: auto;")
                 img(src='@/assets/curso/temas/img13.svg', style="width: 70px;")
     
 
@@ -1013,7 +1013,7 @@
           .borde-10.p-4.fondo-color-sistema-k.position-relative(style="border-bottom-left-radius: 0;border-bottom-right-radius: 0;z-index: 1;")
             figure.position-absolute(style="left: 0;right: 0;z-index: -1;")
               img(src='@/assets/curso/temas/img-33.svg',style="width: auto;max-width: 100%;margin-left: auto;")
-            figure.position-absolute.bottom-0(style="z-index: -1;")
+            figure.position-absolute.bottom-0(style="z-index: -1;right: 0;")
               img(src='@/assets/curso/temas/img-34.svg',style="width: auto;max-width: 100%;margin-left: auto;")
             .row.justify-content-center.align-items-center
               .col-lg-4
@@ -1039,7 +1039,7 @@
           .borde-10.p-4.fondo-color-sistema-k.position-relative(style="border-bottom-left-radius: 0;border-bottom-right-radius: 0;z-index: 1;")
             figure.position-absolute(style="left: 0;right: 0;z-index: -1;")
               img(src='@/assets/curso/temas/img-33.svg',style="width: auto;max-width: 100%;margin-left: auto;")
-            figure.position-absolute.bottom-0(style="z-index: -1;")
+            figure.position-absolute.bottom-0(style="z-index: -1;right: 0;")
               img(src='@/assets/curso/temas/img-34.svg',style="width: auto;max-width: 100%;margin-left: auto;")
             .row.justify-content-center
               .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -1051,7 +1051,7 @@
                         span.txt-color-primario para 
                         | poder encontrar el producto que deseo comprar.
               .col-lg-5(data-aos="fade-left")
-                .p-4.h-100(style="background-color: #FFCE00;")
+                .p-4.h-100(style="background-color: #FFCE00;overflow: hidden;")
                   p.mb-0 
                     b Como un 
                         span.txt-color-primario cliente, quiero 
