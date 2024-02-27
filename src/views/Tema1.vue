@@ -66,10 +66,10 @@
                 td Lista de fuentes de requerimientos.
               tr
                 td #[b B.] Identificar interesados del producto.
-                td Categorías de los interesados (stakeholder).
+                td Categorías de los interesados (#[em stakeholder]).
               tr
                 td #[b C.] Matriz #[em stakeholders] (Describir necesidades y criterios de éxito).
-                td Perfil de stakeholder.
+                td Perfil de #[em stakeholder].
               tr
                 td #[b D.] Revisar técnicas.
                 td Identificar combinaciones de técnicas, entrevistas, grupos focales, encuestas, prototipos.
@@ -111,14 +111,14 @@
           figure.w-auto.ms-4.d-none.d-md-block
             img(src='@/assets/curso/temas/img-5.svg')
 
-    p.mb-4(data-aos="fade") Las fuentes de requerimientos incluyen los propietarios del problema, los #[em stakeholders], documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (people), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los #[em stakeholders].
+    p.mb-4(data-aos="fade") Las fuentes de requerimientos incluyen los propietarios del problema, los #[em stakeholders], documentos y otros sistemas (Pearson, 2002). En ese sentido, los requerimientos pueden obtenerse en diversas fuentes que pueden clasificarse en gente (#[em people]), productos o documentos, pero cualquiera sea la fuente de esos requerimientos deben ser chequeados con los #[em stakeholders].
 
     p.mb-4(data-aos="fade") Estas fuentes de requerimientos, se pueden clasificar en:
 
     .fondo-gradiente-1
       .row.justify-content-center
         .col-md-6.col-lg-4.mb-4(data-aos="fade-right")
-          .tarjeta-p-1.p-3
+          .tarjeta-p-1.p-4
             .d-flex.justify-content-between
               div
                 figure
@@ -129,7 +129,7 @@
             .h3.tarjeta-p-1__titulo.p-1 Fuentes primarias
             p.tarjeta-p-1__parrafo Aportan material de primera mano (es protagonista o testigo de los hechos), estas fuentes contienen información original, que ha sido publicada por primera vez y que no ha sido filtrada, interpretada o evaluada por nadie más.
         .col-md-6.col-lg-4.mb-4(data-aos="fade-up")
-          .tarjeta-p-1.p-3
+          .tarjeta-p-1.p-4
             .d-flex.justify-content-between
               div
                 figure
@@ -140,7 +140,7 @@
             .h3.tarjeta-p-1__titulo.p-1 Fuentes secundarias
             p.tarjeta-p-1__parrafo Toman y reproducen la información que le aportó una fuente primaria. Son las que contienen información primaria, sintetizada y reorganizada y están especialmente diseñadas para facilitar y maximizar el acceso a las fuentes primarias o a sus contenidos. Parten de datos preelaborados, como pueden ser datos obtenidos de anuarios estadísticos, internet, medios de comunicación, bases de datos procesadas con otros fines, artículos y documentos relacionados con un tema, libros, tesis, informes oficiales, etc.
         .col-md-6.col-lg-4.mb-4(data-aos="fade-left")
-          .tarjeta-p-1.p-3
+          .tarjeta-p-1.p-4
             .d-flex.justify-content-between
               div
                 figure
@@ -219,7 +219,7 @@
 
     .row.justify-content-center
       .col-md-5.mb-4(data-aos="fade-right")
-        .tarjeta-p-1.p-3
+        .tarjeta-p-1.p-4
           .d-flex.justify-content-between.mb-3
             div
               figure
@@ -231,7 +231,7 @@
           p.tarjeta-p-1__parrafo Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas
 
       .col-md-5.mb-4(data-aos="fade-left")
-        .tarjeta-p-1.p-3
+        .tarjeta-p-1.p-4
           .d-flex.justify-content-between.mb-3
             div
               figure
@@ -264,7 +264,7 @@
               | Ingeniero de sistemas / Arquitecto.
             li
               i.fas.fa-circle
-              | Programador / Desarrollador / Ingeniero de #[em software].
+              span Programador / Desarrollador / Ingeniero de #[em software].
             li
               i.fas.fa-circle
               | Probador / Asegurador de la calidad.
@@ -411,7 +411,7 @@
                   ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
                     li.mb-0 
                       i.fas.fa-circle
-                      | Matriz stakeholders (registro y estrategias de gestión).
+                      span Matriz #[em stakeholders] (registro y estrategias de gestión).
 
             .d-flex.flex-column.cont_d_3.p-3.flex-lg-row.mt-lg-4(data-aos="fade-up")
               figure.me-lg-4.w-auto(style="min-width: 80px;")
@@ -466,7 +466,7 @@
 
         .position-relative(style="z-index: 1;")
           figure(data-aos="fade")
-            img(src="@/assets/curso/temas/img-26.png",style="width: auto;margin: auto;max-width:100%;")
+            img(src="@/assets/curso/temas/img-26.png",style="width: auto;margin: auto;max-width:100%;",alt="Matriz que presenta un ejemplo de interés vs. Influencia.")
 
     Separador.pt-0
 
@@ -768,9 +768,9 @@
 
       .position-relative(style="z-index: 1;")
         figure.d-none.d-lg-block
-          img(src="@/assets/curso/temas/img-40.png",style="width: auto;margin: auto;max-width: 100%;")
+          img(src="@/assets/curso/temas/img-40.png",style="width: auto;margin: auto;max-width: 100%;",alt="Los tipos de observación son pasiva y activa.")
         figure.d-lg-none
-          img(src="@/assets/curso/temas/img-41.png",style="width: auto;margin: auto;max-width: 100%;")
+          img(src="@/assets/curso/temas/img-41.png",style="width: auto;margin: auto;max-width: 100%;",alt="Los tipos de observación son pasiva y activa.")
 
     p.mb-4(data-aos="fade") Ahora bien, para llevar a cabo la observación, el observador puede utilizar como instrumento #[b la guía de observación], la cual le permite situarse de manera sistemática en aquello que realmente es objeto de estudio para la investigación; también es el medio que conduce la recolección y obtención de datos e información de un hecho o fenómeno.
     p.mb-4 Tamayo (2004) define a la guía de observación como:
@@ -842,8 +842,8 @@
           figure
             img(src='@/assets/curso/temas/img11.svg', style="max-width: 70%; margin: auto;")
         .col-lg-10
-          p También denominada tormenta de ideas o incluso brainstorming. Faickney (1939) investigó sobre diferentes maneras de generar creatividad. Se percató de que la mejor manera de ser creativo en una empresa es a través de la interacción y el trabajo en equipo; todos juntos podían dar sus opiniones y sugerencias sobre un tema determinado. Creó de esta manera la lluvia de ideas.
-      div(titulo="Sesiones JAD (Joint Application Design)")
+          p También denominada tormenta de ideas o incluso #[em brainstorming]. Faickney (1939) investigó sobre diferentes maneras de generar creatividad. Se percató de que la mejor manera de ser creativo en una empresa es a través de la interacción y el trabajo en equipo; todos juntos podían dar sus opiniones y sugerencias sobre un tema determinado. Creó de esta manera la lluvia de ideas.
+      div(titulo="Sesiones JAD (<em>Joint Application Design</em>)")
         .row
           .col-lg-2.d-none.d-lg-block
             figure
@@ -889,7 +889,7 @@
           figure.ps-2.mb-1
             img(src='@/assets/curso/temas/img-3.svg')
         .col(style="place-self:center;")
-          h3.my-1.pe-4(style="padding-top:7px;") Diagrama de casos de uso.
+          h3.my-1.pe-4(style="padding-top:7px;") Diagrama de casos de uso
 
     .row.mb-4
       .col-lg-3
@@ -957,9 +957,9 @@
             .titulo-sexto.color-acento-contenido(data-aos="fade-down")
               p.mb-0 #[b Figura 5.] Caso de uso centro médico
             figure.d-none.d-lg-block
-              img(src="@/assets/curso/temas/img-48.png",style="width: auto;margin: auto;max-width: 100%;")
+              img(src="@/assets/curso/temas/img-48.png",style="width: auto;margin: auto;max-width: 100%;",alt="Representación gráfica de un diagrama de caso de uso de la sistematización de un centro médico.")
             figure.d-lg-none
-              img(src="@/assets/curso/temas/img-49.png",style="width: auto;margin: auto;max-width: 100%;")
+              img(src="@/assets/curso/temas/img-49.png",style="width: auto;margin: auto;max-width: 100%;",alt="Representación gráfica de un diagrama de caso de uso de la sistematización de un centro médico.")
 
     .fondo-gradiente-4
       .row.align-items-end
