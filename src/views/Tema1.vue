@@ -477,7 +477,7 @@
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/img-27.png",style="width: auto;max-width: 100%;")
+          img(src="@/assets/curso/temas/img-27.png",style="width: 100%;")
       .col-lg-8(data-aos="fade-left")
         p.mb-2(data-aos="fade") Hay una variedad de técnicas propuestas para ingeniería de requerimientos (Herrera, 2003. p. 12), por lo que es primordial resaltar que estas técnicas pueden ser aplicables a las distintas fases del proceso de la ingeniería de requerimientos (IR), teniendo en cuenta las características propias del proyecto en particular que se esté desarrollándose para aprovechar al máximo su utilidad.
 
@@ -601,7 +601,7 @@
                 | La interpretación de las respuestas se realiza de acuerdo con unos criterios establecidos.
           .row.mt-5
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_Entrevista_estructurada.pdf')" target="_blank")
+              a.anexo.anexo-fondo.mb-4(:href="obtenerLink('/downloads/Anexo1_Entrevista_estructurada.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -651,7 +651,7 @@
             p.mt-2.mb-0 - (Cohen, 2011, p. 377).
 
     .row.align-items-center.mb-4
-      .col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-2.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/img-31.png',style="width: auto;margin: auto;")
       .col-lg-10
@@ -751,7 +751,7 @@
         p.mb-4 Para el caso de obtención de requerimientos del #[em software] la observación nos sirve para estudiar el entorno de trabajo de los usuarios, clientes e interesados de proyecto (#[em stakeholders]) y para documentar la situación actual de procesos de negocio.
         p En la siguiente figura, se pueden revisar los tipos de observación.
       
-      .col-lg-6(data-aos="fade-down")
+      .col-lg-6.d-none.d-lg-block(data-aos="fade-down")
         figure
           img(src='@/assets/curso/temas/img-38.png',style="width: auto;max-width: 100%;")
 
@@ -789,7 +789,7 @@
     p.mb-4(data-aos="fade") Para elaborar la guía de observación se ha de diseñar el contenido de la observación; el cual debe incluir por lo menos los siguientes aspectos:
 
     .row
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         figure.mb-4.mb-lg-0
           img(src="@/assets/curso/temas/img-43.png",style="width: auto;margin: auto;max-width: 100%;")
       .col-lg-8
@@ -1105,7 +1105,7 @@
 
       .position-relative(style="z-index: 1;",data-aos="fade-up")
         figure
-          img(src="@/assets/curso/temas/img-53.png",style="width: auto;margin: auto;max-width: 100%;")
+          img(src="@/assets/curso/temas/img-53.png",style="width: auto;margin: auto;max-width: 100%;",alt="La imagen presenta una tabla con diferentes ejemplos de historias de usuario, la cual incluye el identificador de la historia, el enunciado de la historia y los criterios de aceptación.")
 
 
     .row.mb-0(data-aos="fade-down")
@@ -1201,7 +1201,7 @@
     .titulo-segundo.color-acento-contenido
       h2 1.4. Herramientas de modelado
 
-    .row
+    .row.mb-4
       .col-lg-4
         figure.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/temas/img-56.png', style="width: auto;max-width: 100%;margin: auto;")

@@ -267,15 +267,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -330,9 +329,8 @@ export default {
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Metodólogo para formación virtual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -358,22 +356,20 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Blanca Flor Tinoco Torres',
+          nombre: 'Juan Daniel Polanco',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Andrea Paola Botello De la Rosa',
+          nombre: 'Edwin Sneider Velandia Suarez',
           cargo: 'Desarrollador Full-stack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Andrea Paola Botello De la Rosa',
+          nombre: 'Edgar Mauricio Cortes',
           cargo: 'Actividad didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -383,14 +379,7 @@ export default {
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
