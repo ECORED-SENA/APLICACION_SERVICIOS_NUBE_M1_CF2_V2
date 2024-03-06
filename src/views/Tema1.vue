@@ -52,7 +52,7 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 1.] Tareas para elicitación de requisitos 
+          p.mb-0 Tareas para elicitación de requisitos 
         .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
           table
             caption Nota: tomado de Durán y Bernárdez (2001)
@@ -154,7 +154,7 @@
       p.mb-4(data-aos="fade")  Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
 
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-down")
-        p.mb-0 #[b Figura 1.] Fuentes de información
+        p.mb-0 Fuentes de información
 
       .contenedor-figura-1.p-4.pb-0
         figure.figura-dec-1
@@ -280,13 +280,13 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 #[b Tabla 2.] Roles involucrados en la ingeniería de requisitos
+          p.mb-0 Roles involucrados en la ingeniería de requisitos
         .tabla-a.color-acento-contenido.mb-4(data-aos="fade-down")
           table
             caption Nota: tomado de Ventura (2002)
             thead
               tr
-                th.table1(style="width: 260px") ROL
+                th.table1(style="width: 260px") Rol
                 th.table1 Descripción
             tbody
               tr
@@ -349,7 +349,7 @@
 
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Figura 2.] Entradas, herramientas y técnicas, salidas
+      p.mb-0 Entradas, herramientas y técnicas, salidas
     
     .p-4.position-relative.mb-4
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2
@@ -428,7 +428,7 @@
           p Es el nombre con el que se identifica al #[em stakeholder].
       .row.ms-1.ms-lg-5(titulo="Tipo")
         .col-12
-          p Identifica si el #[em stakeholder] desempeña un rol interno o externo al proyecto mismo. Los #[em stakeholders] pueden ser internos, como el personal de las unidades ejecutoras, el personal administrativo o ejecutivo de la organización, el personal de las entidades financiadoras con alto nivel de poder e influencia en el proyecto y sus recursos; o externos como los beneficiarios del proyecto, las instituciones del sector o las organizaciones de la sociedad civil, quienes serán de un modo u otro impactados por los resultados del proyecto.
+          p Identifica si el #[em stakeholder] desempeña un rol interno o externo al proyecto mismo. Los #[em stakeholders] pueden ser internos, como el personal de las unidades ejecutoras, el personal administrativo o ejecutivo de la organización, el personal de las entidades financiadoras con alto nivel de poder e influencia en el proyecto y sus recursos; o externos como los beneficiarios del proyecto, las instituciones del sector o las organizaciones de la sociedad civil, quienes serán de un modo u otro, impactados por los resultados del proyecto.
       .row.ms-1.ms-lg-5(titulo="Objetivo o resultados")
         .col-12
           p En este campo se enlistan los objetivos o resultados en los que el #[em stakeholder] muestra interés o en aquellos en los que puede influir positiva o negativamente con sus acciones. Esta información puede ser suministrada por el acta de constitución de proyectos, la estructura de la organización, la estructura de desglose de trabajo, los diferentes planes que conforman el proyecto, entrevistas a los mismos interesados, etc.
@@ -448,13 +448,13 @@
       .row.align-items-center
         .col-lg-8
           p.mb-4(data-aos="fade") Como ya se había mencionado anteriormente, la matriz de #[em stakeholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
-          p.mb-4(data-aos="fade") La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 3).
+          p.mb-4(data-aos="fade") La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias.
         .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/img-25.png',style="width: auto;margin: auto;max-width: 100%;")
 
       .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-        p.mb-0 #[b Figura 3.] Ejemplo de matriz interés vs. influencia.
+        p.mb-0 Ejemplo de matriz interés vs. influencia.
 
       .p-4.position-relative
         .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
@@ -558,7 +558,7 @@
                     span.mb-0 #[b Preguntas abiertas:] también denominadas de libre contexto (Gause y Weinberg, 1989), estas preguntas no pueden  responderse con un #[b "sí"] o un #[b "no"], permiten una mayor comunicación y evitan la sensación de interrogatorio. Por  ejemplo, #[b "¿Qué se hace para registrar un pedido?"], #[b "Dígame qué se debe hacer cuando un cliente pide una factura"] o #[b “¿Cómo se rellena un recibo?"].
                   li.mb-3 
                     i.fas.fa-circle
-                    span.mb-0  #[b Utilizar palabras apropiadas:] se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que  puedan perturbar emocionalmente la comunicación (Goleman 1996, Goleman 1999).
+                    span.mb-0  #[b Utilizar palabras apropiadas:] se deben evitar tecnicismos que no conozca el entrevistado y palabras o frases que  puedan perturbar emocionalmente la comunicación (Goleman 1996).
                   li.mb-3 
                     i.fas.fa-circle
                     span.mb-0  #[b Mostrar interés en todo momento:] es fundamental cuidar la comunicación no verbal (Davis, 1985) durante la entrevista:  tono de voz, movimiento, expresión facial.
@@ -669,9 +669,7 @@
             img(src='@/assets/curso/temas/img-32.png',style="width: auto;margin: auto;")
           h4.text-center.my-4 Tipos de preguntas
           p.mb-0 La distinción más general entre los tipos de preguntas de los #[b cuestionarios, además de hechos y opiniones, es la de preguntas abiertas y cerradas]; las preguntas abiertas son aquellas en las que no se especifica ninguna respuesta para elegir y se deja abierta a la elección del participante para que escriba en ella. Las preguntas cerradas son las que ofrecen ya unas respuestas predeterminadas para su elección.
-          .position-absolute.bottom-0(style="z-index: -1;")
-            figure
-              img(src='@/assets/curso/temas/img-34.svg',style="width: auto;")
+
       .col-lg-6.mb-4(data-aos="fade-left")
         .cont_tarjeta_cursor.p-4
           figure.dec-1.d-none.mb-1
@@ -681,10 +679,7 @@
           figure
             img(src='@/assets/curso/temas/img-35.png',style="width: auto;margin: auto;")
           h4.text-center.my-4 Tipos de respuestas
-          p.mb-0 Las respuestas de escala son las más comunes en los cuestionarios de investigación ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es #[b “bueno”] o #[b “malo”], #[b “frecuente”] o #[b “infrecuente”], #[b “importante”] o #[b “poco importante”] o también pueden valorar opiniones: #[b “completamente de acuerdo”] o #[b “en desacuerdo”]. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
-          .position-absolute.bottom-0(style="z-index: -1;")
-            figure
-              img(src='@/assets/curso/temas/img-34.svg',style="width: auto;")
+          p.mb-0 Las respuestas de escala son las más comunes en los cuestionarios de investigación, ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es #[b “bueno”] o #[b “malo”], #[b “frecuente”] o #[b “infrecuente”], #[b “importante”] o #[b “poco importante”] o también pueden valorar opiniones: #[b “completamente de acuerdo”] o #[b “en desacuerdo”]. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
 
     .row.justify-content-center
       .col-lg-10
@@ -756,7 +751,7 @@
           img(src='@/assets/curso/temas/img-38.png',style="width: auto;max-width: 100%;")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Figura 4.] Tipos de observación
+      p.mb-0 Tipos de observación
 
     .p-4.position-relative.mb-4
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
@@ -909,7 +904,7 @@
           figure
             img(src='@/assets/curso/temas/img-46.png',style="width: auto;margin: auto;")
           h4.text-center.my-4 Actor
-          p.mb-0 se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
+          p.mb-0 Se representa mediante un “hombre de palo”. Este se emplea para indicar el tipo de usuario del sistema que podrá ejecutar alguna función.
        
       .col-lg-6.mb-4(data-aos="fade-left")
         .cont_tarjeta_cursor.p-4
@@ -920,7 +915,7 @@
           figure(data-aos="zoom-in-right")
             img(src='@/assets/curso/temas/img-47.png',style="width: auto;margin: auto;")
           h4.text-center.my-4 Caso de uso
-          p.mb-0 se representa mediante un óvalo e indica una función que el sistema debe proveer.
+          p.mb-0 Se representa mediante un óvalo e indica una función que el sistema debe proveer.
 
     .row.mb-4
       .col-lg-4
@@ -955,7 +950,7 @@
           .position-relative(style="z-index: 1;")
             h4 Representación gráfica
             .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-              p.mb-0 #[b Figura 5.] Caso de uso centro médico
+              p.mb-0 Caso de uso centro médico
             figure.d-none.d-lg-block
               img(src="@/assets/curso/temas/img-48.png",style="width: auto;margin: auto;max-width: 100%;",alt="Representación gráfica de un diagrama de caso de uso de la sistematización de un centro médico.")
             figure.d-lg-none
@@ -1093,7 +1088,7 @@
             p(data-aos="fade") A continuación, un ejemplo de una historia de usuario usando plantilla.
 
     .titulo-sexto.color-acento-contenido.position-relative(data-aos="fade-down",style="z-index: 1;")
-      p.mb-0 #[b Figura 6.] Ejemplos de historias de usuario
+      p.mb-0 Ejemplos de historias de usuario
 
     .p-4.position-relative.position-relative.mb-4(style="z-index: 1;")
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
@@ -1122,7 +1117,7 @@
           figure.ps-2.mb-1
             img(src='@/assets/curso/temas/img-3.svg')
         .col(style="place-self:center;")
-          h3.my-1.pe-4(style="padding-top:7px;") #[em storyboard]
+          h3.my-1.pe-4(style="padding-top:7px;") #[em Storyboard]
 
     .row
       .col-lg-7
@@ -1180,14 +1175,14 @@
       .col-lg-6(data-aos="fade-right")
 
         .titulo-sexto.color-acento-contenido.mb-0
-          p.mb-0 #[b Figura 7.] Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
+          p.mb-0 Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure
           img(src='@/assets/curso/temas/img22.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente.")
           figcaption.mt-2(style="background-color: #F6F6F6;") Nota: 
             span(style="font-weight: 400;") Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
-          p.mb-0 #[b Figura 8.] Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
+          p.mb-0 Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure
           img(src='@/assets/curso/temas/img23.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema.")
           figcaption(style="background-color: #F6F6F6;") Nota: 

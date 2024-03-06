@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'La fase de elicitación de requisitos',
     descripcionCurso:
       'La recolección de datos se refiere al uso de una gran diversidad de técnicas y herramientas que pueden ser utilizadas por el analista para desarrollar los sistemas de información, que pueden ser la entrevista, la encuesta, el cuestionario, la observación, las sesiones en grupo, la visita a instalaciones, entre otros. Cada técnica de recolección de información posee diferentes instrumentos o herramientas para ser llevadas a cabo con profesionalismo y confiabilidad.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -199,7 +199,7 @@ export default {
     },
     {
       referencia:
-        'Cox, K., Niazi, M., y Verner, J. (2009). Empirical study of Sommerville and Sawyer’s requirements engineering practices. IET Software, 3(5), 339.',
+        'Cox, K., Niazi, M., y Verner, J. (2009). <em>Empirical study of Sommerville and Sawyer’s requirements engineering practices</em>. IET Software, 3(5), 339.',
       link: 'https://doi.org/10.1049/iet-sen.2008.0076',
     },
     {
@@ -209,33 +209,33 @@ export default {
     },
     {
       referencia:
-        'Denscombe, M. (2010). The Good Research Guide. McGraw-Hill Education.',
+        'Denscombe, M. (2010). <em>The Good Research Guide</em>. McGraw-Hill Education.',
     },
     {
       referencia:
-        'Dornyei, Z. (2010). Questionnaires in Second Language Research: Construction, Administration, and Processing. Routledge.',
+        'Dornyei, Z. (2010). <em>Questionnaires in Second Language Research: Construction, Administration, and Processing</em>. Routledge.',
     },
     {
       referencia:
-        'Durán, A., Bernárdez, B., Ruiz, A. y Toro, M. (1999). A Requirements Elicitatio Approach Based in Templates and Patterns.',
+        'Durán, A., Bernárdez, B., Ruiz, A. y Toro, M. (1999). <em>A Requirements Elicitatio Approach Based in Templates and Patterns</em>.',
       link:
         'https://www.researchgate.net/publication/2890318_A_Requirements_Elicitation_Approach_Based_in_Templates_and_Patterns',
     },
     {
       referencia:
-        'Gause, C., & Weinberg, G. M. (1989). Exploring Requirements: Quality Before Design. Dorset House.',
+        'Gause, C., & Weinberg, G. M. (1989). <em>Exploring Requirements: Quality Before Design</em>. Dorset House.',
     },
     {
       referencia:
-        'Granollers, T., Lorés, J., y Perdrix F. (2002). Prototipado. Capítulo 5: modelo de proceso de la ingeniería de la usabilidad y de la accesibilidad.',
+        'Granollers, T., Lorés, J., y Perdrix F. (2002). <em>Prototipado. Capítulo 5: modelo de proceso de la ingeniería de la usabilidad y de la accesibilidad</em>.',
     },
     {
       referencia:
-        'Hernández, S., Fernández C., y Baptista L. (2006). Metodología de la investigación. McGraw Hill.',
+        'Hernández, S., Fernández C., y Baptista L. (2006). <em>Metodología de la investigación</em>. McGraw Hill.',
     },
     {
       referencia:
-        'Herrera J., Lizka J. (2003). Ingeniería de requerimientos, ingeniería de software.',
+        'Herrera J., Lizka J. (2003). <em>Ingeniería de requerimientos, ingeniería de software</em>.',
       link: 'http://www.monografias.com/trabajos6/resof/resof.shtml',
     },
     {
@@ -246,20 +246,20 @@ export default {
     },
     {
       referencia:
-        'Piattini M., Calvo-Manzano J., Cervera J., y Fernández, L. (2004). Análisis y diseño de aplicaciones informáticas de gestión. Una perspectiva de ingeniería de software. Alfaomega-Rama.',
+        'Piattini M., Calvo-Manzano J., Cervera J., y Fernández, L. (2004). <em>Análisis y diseño de aplicaciones informáticas de gestión. Una perspectiva de ingeniería de software</em>. Alfaomega-Rama.',
     },
     {
       referencia:
-        'Sommerville, I. (2011). Ingeniería de software. Pearson Educación.',
+        'Sommerville, I. (2011). <em>Ingeniería de software</em>. Pearson Educación.',
     },
     {
       referencia:
-        'Ventura, M. T. (2002). La ingeniería de requerimientos como factor clave para el éxito de los proyectos de desarrollo de software.',
+        'Ventura, M. T. (2002). <em>La ingeniería de requerimientos como factor clave para el éxito de los proyectos de desarrollo de software</em>.',
       link: 'http://132.248.9.195/ppt2002/0307178/Index.html',
     },
     {
       referencia:
-        'Wessinger, K., (2012) Project Stakeholder Management. Engineering Management Journal, 14(84), 19-24.',
+        'Wessinger, K., (2012) <em>Project Stakeholder Management. Engineering Management Journal</em>, 14(84), 19-24.',
     },
   ],
   creditos: [
