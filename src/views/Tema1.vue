@@ -52,7 +52,7 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 Tareas para elicitación de requisitos 
+          p.mb-0 #[b Tabla 1.] Tareas para elicitación de requisitos 
         .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
           table
             caption Nota: tomado de Durán y Bernárdez (2001)
@@ -154,7 +154,7 @@
       p.mb-4(data-aos="fade")  Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
 
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-down")
-        p.mb-0 Fuentes de información
+        p.mb-0 #[b Figura 1.] Fuentes de información
 
       .contenedor-figura-1.p-4.pb-0
         figure.figura-dec-1
@@ -280,7 +280,7 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          p.mb-0 Roles involucrados en la ingeniería de requisitos
+          p.mb-0 #[b Tabla 2.] Roles involucrados en la ingeniería de requisitos
         .tabla-a.color-acento-contenido.mb-4(data-aos="fade-down")
           table
             caption Nota: tomado de Ventura (2002)
@@ -349,7 +349,7 @@
 
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 Entradas, herramientas y técnicas, salidas
+      p.mb-0 #[b Figura 2.] Entradas, herramientas y técnicas, salidas
     
     .p-4.position-relative.mb-4
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2
@@ -454,7 +454,7 @@
             img(src='@/assets/curso/temas/img-25.png',style="width: auto;margin: auto;max-width: 100%;")
 
       .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-        p.mb-0 Ejemplo de matriz interés vs. influencia.
+        p.mb-0 #[b Figura 3.] Ejemplo de matriz interés vs. influencia
 
       .p-4.position-relative
         .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
@@ -751,7 +751,7 @@
           img(src='@/assets/curso/temas/img-38.png',style="width: auto;max-width: 100%;")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 Tipos de observación
+      p.mb-0 #[b Figura 4.] Tipos de observación
 
     .p-4.position-relative.mb-4
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
@@ -950,7 +950,7 @@
           .position-relative(style="z-index: 1;")
             h4 Representación gráfica
             .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-              p.mb-0 Caso de uso centro médico
+              p.mb-0 #[b Figura 5.] Caso de uso centro médico
             figure.d-none.d-lg-block
               img(src="@/assets/curso/temas/img-48.png",style="width: auto;margin: auto;max-width: 100%;",alt="Representación gráfica de un diagrama de caso de uso de la sistematización de un centro médico.")
             figure.d-lg-none
@@ -1088,7 +1088,7 @@
             p(data-aos="fade") A continuación, un ejemplo de una historia de usuario usando plantilla.
 
     .titulo-sexto.color-acento-contenido.position-relative(data-aos="fade-down",style="z-index: 1;")
-      p.mb-0 Ejemplos de historias de usuario
+      p.mb-0 #[b Figura 6.] Ejemplos de historias de usuario
 
     .p-4.position-relative.position-relative.mb-4(style="z-index: 1;")
       .fondo-color-sistema-l.position-absolute.end-0.start-0.top-0.borde-10.cont-fig-2(style="bottom: 0;")
@@ -1175,14 +1175,14 @@
       .col-lg-6(data-aos="fade-right")
 
         .titulo-sexto.color-acento-contenido.mb-0
-          p.mb-0 Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
+          p.mb-0 #[b Figura 7.] Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure
           img(src='@/assets/curso/temas/img22.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente.")
           figcaption.mt-2(style="background-color: #F6F6F6;") Nota: 
             span(style="font-weight: 400;") Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
-          p.mb-0 Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
+          p.mb-0 #[b Figura 8.] Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure
           img(src='@/assets/curso/temas/img23.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema.")
           figcaption(style="background-color: #F6F6F6;") Nota: 
