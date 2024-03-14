@@ -228,7 +228,7 @@
               figure
                 img(src='@/assets/curso/temas/img-6.svg')
           .h3.tarjeta-p-1__titulo.p-1 Primarios
-          p.tarjeta-p-1__parrafo Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas
+          p.tarjeta-p-1__parrafo Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas.
 
       .col-md-5.mb-4(data-aos="fade-left")
         .tarjeta-p-1.p-4
@@ -628,7 +628,7 @@
               li 
                 i.fas.fa-circle
                 | Es la más ágil y la que proporciona más información en general, pero requiere un cierto dominio por parte del entrevistador.
-          p.mb-4 En el material complementario se pueden revisar ejemplo de entrevistas.
+          p.mb-4 En el material complementario se pueden revisar ejemplos de entrevistas.
     
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row
@@ -686,7 +686,7 @@
         .d-flex.flex-column.cont_d_3.p-3.flex-lg-row(data-aos="fade-down")
           figure.me-lg-4.w-auto(style="min-width: 80px;")
             img(src='@/assets/curso/temas/img-22.svg',style="width: auto;")
-          p.mt-2 Para ampliar la información, lo invitamos a ver el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
+          p.mt-2 Para ampliar la información, lo invitamos a explorar el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
 
 
 

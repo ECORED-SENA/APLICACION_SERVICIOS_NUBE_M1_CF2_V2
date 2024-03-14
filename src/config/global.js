@@ -93,7 +93,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228139_CF01_DU.zip',
+        download: 'downloads/228128_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -132,14 +132,14 @@ export default {
     {
       tema: '1.1 Planeación',
       referencia:
-        'Calle, M. (2020). <em>Análisis de Interesados Mariz Poder Interés - PMI</em> ',
+        'Calle, M. (2020). <em>Análisis de Interesados Matriz Poder Interés - PMI</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hDZ0uu0H1wc',
     },
     {
       tema: '1.2 Técnicas e instrumentos para elicitar requisitos',
       referencia:
-        'Jibaro X. (2019). <em>Tipos de Pregundas en una encuesta</em> ',
+        'Jibaro X. (2019). <em>Tipos de Preguntas en una encuesta</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mwnQuUi9014',
     },
@@ -204,7 +204,7 @@ export default {
     },
     {
       referencia:
-        'Curso de interacción persona-ordenador. (2021). Storyboarding',
+        'Curso de interacción persona-ordenador. (2021). Storyboarding.',
       link: 'https://mpiua.invid.udl.cat/storyboarding',
     },
     {
@@ -344,14 +344,12 @@ export default {
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',

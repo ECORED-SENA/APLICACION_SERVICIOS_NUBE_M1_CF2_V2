@@ -13,7 +13,7 @@
       img(src='@/assets/curso/temas/img1.jpg' alt="")
     
     p(data-aos="fade") A través de este material, se tratan con detalle los pasos que se deben seguir en el proceso de recolección de datos, el uso de técnicas y los instrumentos para tal fin.
-    p.mb-4(data-aos="fade") Para comenzar, lo invitamos a ver el siguiente video:
+    p.mb-4(data-aos="fade") Para comenzar, lo invitamos a explorar el siguiente video:
 
     figure
       .video
