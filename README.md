@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/APLICACION_SERVICIOS_NUBE_M1_CF2_V2/#/](https://ecored-sena.github.io/APLICACION_SERVICIOS_NUBE_M1_CF2_V2/#/)
+[https://ecored-sena.github.io/CF2_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/#/](https://ecored-sena.github.io/CF2_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/#/)
 
 #
 
