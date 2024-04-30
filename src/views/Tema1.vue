@@ -334,7 +334,7 @@
               img(src='@/assets/curso/temas/img-19.svg')
             
             .h4 Importancia de la matriz de #[em stakeholders] en los proyectos de desarrollo
-            p.mb-0 En los proyectos de desarrollo, la gestión de los #[em stakeholders] es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de #[em stakeholders] es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional sino una oportunidad para lograr su apoyo al proyecto.
+            p.mb-0 En los proyectos de desarrollo, la gestión de los #[em stakeholders] es de suma importancia para alcanzar el éxito de los proyectos, ya que el proceso de identificación de los involucrados y la definición de sus niveles de interés e influencia en el proyecto, marcarán el punto de partida para desarrollar estrategias que posibilitan obtener el apoyo requerido para alcanzar los objetivos por los que el proyecto es emprendido. Es por ello, que la matriz de #[em stakeholders] es una herramienta indispensable desde el comienzo del proyecto mismo, ya que proveerá de la información necesaria para gestionar, adecuadamente, las expectativas de los involucrados a lo largo del proyecto, maximizando las influencias positivas y mitigando los impactos negativos potenciales derivados de estos. Además, dado el carácter social de los proyectos de desarrollo, involucrar a la sociedad civil no debe ser solo un ejercicio de comunicación unidireccional, sino una oportunidad para lograr su apoyo al proyecto.
       
       .col-lg-4.order-first.order-lg-last.mb-4.mb-lg-0(data-aos="fade-left")
         figure
@@ -1000,7 +1000,7 @@
           .col(style="place-self:center;")
             h3.my-1.pe-4(style="padding-top:7px;") Historias de usuario
       
-      p.mb-4(data-aos="fade") Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad #[em software] tal y como la percibe el usuario (Cohn, 2004).
+      p.mb-4(data-aos="fade") Las historias de usuario son utilizadas en los métodos ágiles para la especificación de requisitos, son una descripción breve de una funcionalidad #[em software] tal y como la percibe el usuario (Cohn, 2004).
       p.mb-4(data-aos="fade") El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
 
       .row.justify-content-center.mb-4
@@ -1105,7 +1105,7 @@
 
     .row.mb-0(data-aos="fade-down")
       .col-10.col-md-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo3.xls')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Ejemplos_de_historias_de_usuario.xls')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
